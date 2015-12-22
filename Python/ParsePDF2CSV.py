@@ -83,7 +83,6 @@ if __name__ == '__main__':
 					else:
 						donorOrAmount = ""
 
-
 				if thisRowIsAmount:
 					# update the current amount value
 					# currentAmount = refineAmountCellForCooper(donorOrAmount)	
