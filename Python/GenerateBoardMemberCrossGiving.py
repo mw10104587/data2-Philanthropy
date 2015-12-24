@@ -1,3 +1,9 @@
+# ========================================================================================= #
+#   This file generates two csv files and a json fileself.                                  #
+#   Two csv files are node and edge data respectively, and the json file is a matrix for    #
+#   plotting chord diagram.                                                                 #
+# ========================================================================================= #
+
 import sys, csv, json
 import numpy as np
 
@@ -157,10 +163,10 @@ if __name__ == "__main__":
   					# this is the best part that we're trying to find
   					else:
 
-  						print "======================================="
-  						print donor["Name"] + " of " + board_member["Name"] + "'s Affiliation donated to " + board_member["Institution"]
-  						print "======================================="
-  						print "" 
+  						# print "======================================="
+  						# print donor["Name"] + " of " + board_member["Name"] + "'s Affiliation donated to " + board_member["Institution"]
+  						# print "======================================="
+  						# print "" 
 
   						link_to_other_donation_affiliate = Edge("BOARD MEMBER", board_member["ID"], board_member["Name"].strip(), "Affiliate Other", "INSTITUTION", institution_id, institution_name, 8)
   						if donor["amount_lb"] != "-":
@@ -191,9 +197,7 @@ if __name__ == "__main__":
   			bm_institution_name = edge.getBoardMemberDonorOriginalInstitution()
   			bm_institution_id = int(boards[bm_institution_name])
 
-  			print "in board member donation"
-  			print bm_institution_name + " donated to " + str(institution_id)
-  			print "======================="
+  			print bm_institution_name + "," + str(institution_id)
 
 
   			# get donation institution id
@@ -202,7 +206,7 @@ if __name__ == "__main__":
   			# get amount of donation
   			donation = int(edge.getAmount())
 
-  			matrix[bm_institution_id-1][institution_id-1] += float(donation)
+  			matrix[institution_id-1][bm_institution_id-1] += float(donation)
   			donationSum += donation
 
   		elif edge.getEdgeType() == "Affiliate Other":
@@ -211,9 +215,7 @@ if __name__ == "__main__":
   			bm_institution_name = edge.getBoardMemberDonorOriginalInstitution()
   			bm_institution_id = int(boards[bm_institution_name])
 
-  			print "in Affiliate Other"
-  			print bm_institution_name + " donated to " + str(institution_id)
-  			print "======================="
+  			print bm_institution_name + "," + str(institution_id)
 
 
   			# get donation institution id
@@ -222,46 +224,55 @@ if __name__ == "__main__":
   			# get amount of donation
   			donation = int(edge.getAmount())
 
-  			matrix[bm_institution_id-1][institution_id-1] += float(donation)
+  			matrix[institution_id-1][bm_institution_id-1] += float(donation)
   			donationSum += donation
 
   		else:
   			print "I don't know why I'm here."
 
+  	# ======================================================================================== #
+  	# temp usage
+	# calculate the sum of board members' donation, and print it out with the institution name
+	# bm_donation_sum = np.sum(np.matrix(matrix), 1).tolist()
+	#
+ 	#  	for x in xrange(1,22):
+ 	#  		# print x 
+ 	#  		for board in institutionsList:
+ 	#  			if board["ID"] == x:
+ 	#  				print board["institution"] + "," + str(bm_donation_sum[x-1][0])
+ 	#
+	# sys.exit()
+	# ======================================================================================== #
 
 
-  	# print json.dumps(matrix, indent=4)
-  	print matrix
 
+
+	# At first I thought it should be useful? But I think the d3.js will take care of normalizing for us.
   	matrix = np.matrix(matrix)/float(donationSum)
 
-  	print matrix
-
+  	# output the json file
   	with open("../story-use data/graph-3/matrix.json", "w") as matrixOut:
   		json.dump(matrix.tolist(), matrixOut)
 
-  	for x in xrange(1,22):
-  		# print x 
-  		for board in institutionsList:
-  			if board["ID"] == x:
-  				print board["institution"]
+
+
 
 	# export edges
-	# with open("../story-use data/graph-2/graph-2-edges-all-amount-noself.csv", "w") as edgeOutput:
+	with open("../story-use data/graph-2/graph-2-edges-final.csv", "w") as edgeOutput:
 
-	# 	edgeOutput.write("SOURCE TYPE,Source,Source Name,EDGE TYPE,TARGET TYPE,Target,Target Name, Weight\n")
-	# 	for edge in edges:
-	# 		# writer.writerow(edge.toDictionary())
-	# 		edgeOutput.write(edge.getEdgeString() + "\n")
+		edgeOutput.write("SOURCE TYPE,Source,Source Name,EDGE TYPE,TARGET TYPE,Target,Target Name, Weight\n")
+		for edge in edges:
+			# writer.writerow(edge.toDictionary())
+			edgeOutput.write(edge.getEdgeString() + "\n")
 
 
-	# with open("../story-use data/graph-2/graph-2-nodes-all-amount-no-self.csv", "w") as nodeOutput:
+	with open("../story-use data/graph-2/graph-2-nodes-final.csv", "w") as nodeOutput:
 
-	# 	nodeOutput.write("TYPE,Name,ID,Size\n")
-	# 	for institution in institutionsList:
-	# 		nodeOutput.write('INSTITUTION,"' + institution["institution"] + '",' + str(institution["ID"]) + ",20" + "\n")	
+		nodeOutput.write("TYPE,Name,ID,Size\n")
+		for institution in institutionsList:
+			nodeOutput.write('INSTITUTION,"' + institution["institution"] + '",' + str(institution["ID"]) + ",20" + "\n")	
 
-	# 	for board_member in board_members:
-	# 		nodeOutput.write('BOARD MEMBER,"' + board_member["Name"].strip() + '",' + str(board_member["ID"]) + ",4" + "\n")
+		for board_member in board_members:
+			nodeOutput.write('BOARD MEMBER,"' + board_member["Name"].strip() + '",' + str(board_member["ID"]) + ",4" + "\n")
 				
 

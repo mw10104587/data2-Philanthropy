@@ -4,9 +4,6 @@
 <script type="text/javascript" src="js/d3.js"></script>
 <script type="text/javascript" src="js/queue.v1.min.js"></script>
 
-
-
-
 </head>
 <body>
 
@@ -80,8 +77,6 @@ function ready(error, cities, matrix) {
   // Compute the chord layout.
   layout.matrix(matrix);
 
-  console.log(matrix.length);
-
   function mouseover(d, i) {
     chord.classed("fade", function(p) {
       return p.source.index != i
@@ -125,7 +120,16 @@ function ready(error, cities, matrix) {
       .data(layout.chords)
     .enter().append("path")
       .attr("class", "chord")
-      .style("fill", function(d) { return cities[d.source.index].color; })
+      .style("fill", function(d) { 
+
+      	if( parseFloat(formatPercent(d.source.value)) > 0 && parseFloat(formatPercent(d.target.value)) > 0 ){
+      		return cities[d.source.index].color;	
+      	}else{
+      		// return "#d3d3d3";
+      		return "rgba(211,211,211,0.3)";
+      	}
+      })
+      	
       // .style("fill", function(d){
       // 	return "red";
       // })
@@ -133,11 +137,11 @@ function ready(error, cities, matrix) {
 
   // Add an elaborate mouseover title for each chord.
   chord.append("title").text(function(d) {
-    return cities[d.source.index].name
-        + " → " + cities[d.target.index].name
-        + ": " + formatPercent(d.source.value)
-        + "\n" + cities[d.target.index].name
+    return cities[d.target.index].name
         + " → " + cities[d.source.index].name
+        + ": " + formatPercent(d.source.value)
+        + "\n" + cities[d.source.index].name
+        + " → " + cities[d.target.index].name
         + ": " + formatPercent(d.target.value);
   });
 

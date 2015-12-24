@@ -181,7 +181,7 @@ if __name__ == "__main__":
 	for idx, donor in enumerate(donors):
 		for idx_l, donor_loop in enumerate(donors):
 			if donor["Name"].lower() == donor_loop["Name"].lower() and idx != idx_l:
-				print "Got the same name but different transaction: " + donor["Name"]
+				# print "Got the same name but different transaction: " + donor["Name"]
 				# id_donor_1, id_donor_2, donor_name
 				edges.append(SameDonorLink(donor["ID"], donor_loop["ID"], donor["Name"]))
 
@@ -189,7 +189,7 @@ if __name__ == "__main__":
 	for idx, donor in enumerate(donors):
 		for idx_b, b_member in enumerate(board_members):
 			if donor["Name"].strip().lower() == b_member["Name"].strip().lower():
-				print "Got the same name of donor and board members: " + donor["Name"]
+				# print "Got the same name of donor and board members: " + donor["Name"]
 				# id_donor, id_b_member, name_donor
 				edges.append(DonorIsBoardMemberLink(donor["ID"], b_member["ID"], donor["Name"]))
 
@@ -199,8 +199,6 @@ if __name__ == "__main__":
 	donors = donors + board_members
 	# print json.dumps(boards, indent=4)
 	print boards.keys()
-
-
 	
 
 	for donor in donors:
@@ -214,8 +212,8 @@ if __name__ == "__main__":
 
 		if int(donor["amount_class"]) > donationClassThreshold:
 
-			print donor["amount_class"] + ":" + str(donationClassThreshold)
-			print "some one is in here"
+			# print donor["amount_class"] + ":" + str(donationClassThreshold)
+			# print "some one is in here"
 			continue
 
 		institution = donor["Institution"].lower()
@@ -253,7 +251,7 @@ if __name__ == "__main__":
 	# export edges
 	fieldnames = ["id_1", "id_2", "Amount", "Institution", "Relation", "Weight"]
 
-	with open("final-edges-final.csv", "w") as edgeOutput:
+	with open("final-edges-finalsmall-1224.csv", "w") as edgeOutput:
 		# writer = csv.DictWriter(edgeOutput, fieldnames=fieldnames)
 		# writer.writeheader()
 
@@ -266,7 +264,7 @@ if __name__ == "__main__":
 
 	nodeFields = [ "ID","Year","Position","Name","Amount", "Type","Institution", "id", "First year"]
 
-	with open("final-nodes-final.csv", "w") as nodeOutput:
+	with open("final-nodes-finalsmall-1224.csv", "w") as nodeOutput:
 
 		nodeOutput.write("TYPE,Name,ID,Institution,Amount,Year,amount_lb,amount_ub\n")
 

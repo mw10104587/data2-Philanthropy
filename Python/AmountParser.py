@@ -97,10 +97,10 @@ def getDonationAmountClass(amount_tuple):
 	# 5 -> 249,999 -
 
 
-with open("../test-data/merge-20.csv", "r") as inputFile:
+with open("../TO BE PARSED/911_memorial_merged.csv", "r") as inputFile:
 	reader = csv.DictReader(inputFile)
 
-	outputFile = open("../test-data/merge-20-amount-fine.csv", "w")
+	outputFile = open("../test-data/911_memorial-amount-fine.csv", "w")
 	# amount_lb -> amount lower bound
 	# amount_ub -> amount upper bound
 	writer = csv.DictWriter(outputFile, fieldnames = ["Donor","Amount","Type","Institution","Year", "amount_lb", "amount_ub", "amount_class"])
@@ -115,6 +115,7 @@ with open("../test-data/merge-20.csv", "r") as inputFile:
 		donation["amount_lb"] = uplowTuple[0]
 		donation["amount_ub"] = uplowTuple[1]
 		donation["amount_class"] = getDonationAmountClass(uplowTuple)
+		donation["Donor"] = donation["Donor"].strip()
 
 		writer.writerow(donation)
 
