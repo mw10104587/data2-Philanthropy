@@ -73,7 +73,7 @@ if __name__ == '__main__':
 		thisRowIsAmount = False
 		currentAmount = ""
 
-		with open(csvFile, "r") as inFile:
+		with open(csvFile, "rU") as inFile:
 			donorsOrAmounts = csv.reader(inFile)
 			for donorOrAmount in donorsOrAmounts:
 
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
 		currentAmount = ""
 
-		with open(csvFile, "r") as inFile:
+		with open(csvFile, "rU") as inFile:
 			donorsOrAmounts = csv.reader(inFile)
 			for donorOrAmount in donorsOrAmounts:
 

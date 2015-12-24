@@ -1,0 +1,507 @@
+ID,First year,Position,Name,Trimmed,Dupe,Affiliation,Institution,Type
+1,2013,Trustee,Alan Rappaport,Alan Rappaport,FALSE,,American Museum of Natural History,Board
+2,2014,Trustee,Ann Ziff,Ann Ziff,FALSE,,American Museum of Natural History,Board
+3,2014,Trustee,Anna Deavere Smith,Anna Deavere Smith,FALSE,,American Museum of Natural History,Board
+4,2013,Trustee,Anne Sidamon-Eristoff,Anne Sidamon-Eristoff,FALSE,,American Museum of Natural History,Board
+5,2013,Trustee,Archibald Cox Jr.,Archibald Cox Jr.,FALSE,,American Museum of Natural History,Board
+6,2013,Trustee,Charles E. Phillips Jr.,Charles E. Phillips Jr.,FALSE,,American Museum of Natural History,Board
+7,2013,Treasurer,Charles H. Mott,Charles H. Mott,FALSE,,American Museum of Natural History,Board
+8,2013,Trustee,Christine A. Varney,Christine A. Varney,FALSE,,American Museum of Natural History,Board
+9,2013,Trustee,Christopher C. Davis,Christopher C. Davis,FALSE,,American Museum of Natural History,Board
+10,2013,Trustee,David H. Koch,David H. Koch,FALSE,,American Museum of Natural History,Board
+11,2013,Vice Chairman ,David S. Gottesman,David S. Gottesman,FALSE,,American Museum of Natural History,Board
+12,2013,Trustee,Edwin H. Morgens,Edwin H. Morgens,FALSE,,American Museum of Natural History,Board
+13,2013,President ,Ellen V. Futter,Ellen V. Futter,FALSE,,American Museum of Natural History,Board
+14,2013,Vice Chairman ,Fiona Druckenmiller,Fiona Druckenmiller,FALSE,,American Museum of Natural History,Board
+15,2013,Trustee,Frank V. Sica,Frank V. Sica,FALSE,,American Museum of Natural History,Board
+16,2013,Trustee,Frederick A. Klingenstein,Frederick A. Klingenstein,FALSE,,American Museum of Natural History,Board
+17,2013,Trustee,Helene D. Gayle,Helene D. Gayle,FALSE,,American Museum of Natural History,Board
+18,2013,Trustee,Helene L. Kaplan,Helene L. Kaplan,FALSE,,American Museum of Natural History,Board
+19,2013,Trustee,Ilene Sackler Lefcourt,Ilene Sackler Lefcourt,FALSE,,American Museum of Natural History,Board
+20,2013,Trustee,Irma Milstein,Irma Milstein,FALSE,,American Museum of Natural History,Board
+21,2014,Trustee,Jackie Bezos,Jackie Bezos,FALSE,,American Museum of Natural History,Board
+22,2013,Trustee,Joseph H. Gleberman,Joseph H. Gleberman,FALSE,,American Museum of Natural History,Board
+23,2013,Trustee,Katheryn P. Kempner,Katheryn P. Kempner,FALSE,,American Museum of Natural History,Board
+24,2014,Trustee,Kenneth L. Wallach,Kenneth L. Wallach,FALSE,,American Museum of Natural History,Board
+25,2014,Trustee,Laura Baudo Sillerman,Laura Baudo Sillerman,FALSE,,American Museum of Natural History,Board
+26,2013,Chairman ,Lewis W. Bernard,Lewis W. Bernard,FALSE,,American Museum of Natural History,Board
+27,2013,Vice Chairman ,Linda R. Macaulay,Linda R. Macaulay,FALSE,,American Museum of Natural History,Board
+28,2013,Trustee,Lorne Michaels,Lorne Michaels,FALSE,,American Museum of Natural History,Board
+29,2013,Vice Chairman ,Louis V. Gerstner Jr.,Louis V. Gerstner Jr.,FALSE,,American Museum of Natural History,Board
+30,2013,Trustee,Marlene Hess,Marlene Hess,FALSE,,American Museum of Natural History,Board
+31,2013,Trustee,Mary C. Solomon,Mary C. Solomon,FALSE,,American Museum of Natural History,Board
+32,2013,Trustee,Nancy B. Fessenden,Nancy B. Fessenden,FALSE,,American Museum of Natural History,Board
+33,2013,Trustee,Peter J. Solomon,Peter J. Solomon,FALSE,,American Museum of Natural History,Board
+34,2014,Trustee,Rebekah Mercer,Rebekah Mercer,FALSE,,American Museum of Natural History,Board
+35,2013,Trustee,Richard D. Parsons,Richard D. Parsons,FALSE,,American Museum of Natural History,Board
+36,2013,Trustee,Richard E. Jaffe,Richard E. Jaffe,FALSE,,American Museum of Natural History,Board
+37,2013,Trustee,Richard Gilder,Richard Gilder,FALSE,,American Museum of Natural History,Board
+38,2013,Trustee,Richard L. Revesz,Richard L. Revesz,FALSE,,American Museum of Natural History,Board
+39,2013,Trustee,Richard S. LeFrak,Richard S. LeFrak,FALSE,,American Museum of Natural History,Board
+40,2013, Chairman Emeritus,Robert G. Goelet,Robert G. Goelet,FALSE,,American Museum of Natural History,Board
+41,2013,Vice Chairman ,Roberto A. Mignone,Roberto A. Mignone,FALSE,,American Museum of Natural History,Board
+42,2013,Vice Chairman ,Roger C. Altman,Roger C. Altman,FALSE,,American Museum of Natural History,Board
+43,2013,Trustee,Scott L. Bok,Scott L. Bok,FALSE,,American Museum of Natural History,Board
+44,2014,Trustee,Shaiza Rizavi,Shaiza Rizavi,FALSE,,American Museum of Natural History,Board
+45,2013,Secretary,Sibyl R. Golden,Sibyl R. Golden,FALSE,,American Museum of Natural History,Board
+46,2013,Trustee,Stephanie Bell-Rose,Stephanie Bell-Rose,FALSE,,American Museum of Natural History,Board
+47,2013,Trustee,Tamsen Ann Ziff,Tamsen Ann Ziff,FALSE,,American Museum of Natural History,Board
+48,2013,Trustee,Theodore A. Mathas,Theodore A. Mathas,FALSE,,American Museum of Natural History,Board
+49,2013,Trustee,Theodore Roosevelt IV,Theodore Roosevelt IV,FALSE,,American Museum of Natural History,Board
+50,2013,Trustee,Tina Fey,Tina Fey,FALSE,,American Museum of Natural History,Board
+51,2013,Trustee,Tom Brokaw,Tom Brokaw,FALSE,,American Museum of Natural History,Board
+52,2014,Trustee,Valerie S. Peltier,Valerie S. Peltier,FALSE,,American Museum of Natural History,Board
+53,2014,Trustee,Victor Marrero,Victor Marrero,FALSE,,American Museum of Natural History,Board
+54,2013,Trustee,Virginia Hearst Randt,Virginia Hearst Randt,FALSE,,American Museum of Natural History,Board
+55,2013,Trustee,Vivian H. Donnelley,Vivian H. Donnelley,FALSE,,American Museum of Natural History,Board
+56,2013,Trustee,Walter V. Shipley,Walter V. Shipley,FALSE,,American Museum of Natural History,Board
+57,2012,DIRECTORS ,"_Frank A. Bennack, Jr. ","_Frank A. Bennack, Jr.",FALSE,Executive Vice Chairman of the Board_and Chairman of the Executive Committee Hearst Corporation ,Lincoln Center,Board
+58,2012,DIRECTORS ,Adrienne Arsht ,Adrienne Arsht,FALSE,Chairman Emerita TotalBank ,Lincoln Center,Board
+59,2012,DIRECTORS ,Alair A. Townsend ,Alair A. Townsend,FALSE,Crain・s New York Business ,Lincoln Center,Board
+60,2012,DIRECTORS ,Ann Unterberg ,Ann Unterberg,FALSE,"Chairman_, Lincoln Center Education ",Lincoln Center,Board
+61,2012,VICE CHAIRS ,Ann Ziff ,Ann Ziff,FALSE,,Lincoln Center,Board
+62,2013,DIRECTORS ,Anna Nikolayevsky  Benton,Anna Nikolayevsky Benton,FALSE,Managing Member_ Axel Capital Management ,Lincoln Center,Board
+63,2012,DIRECTORS ,Audra McDonald ,Audra McDonald,FALSE,Actor and Singer ,Lincoln Center,Board
+64,2012,DIRECTORS ,Audrey Butvay Gruss ,Audrey Butvay Gruss,FALSE,"President_, The Audrey and Martin Gruss Foundation ",Lincoln Center,Board
+65,2012,DIRECTORS ,Barbara Walters ,Barbara Walters,FALSE,ABC News ,Lincoln Center,Board
+66,2012,DIRECTORS ,Bart Friedman ,Bart Friedman,FALSE,"Senior Partner_, Cahill Gordon & Reindel, LLP ",Lincoln Center,Board
+67,2013,DIRECTORS ,Bennett J. Goodman ,Bennett J. Goodman,FALSE,Co-Founder and Senior Managing Director GSO Capital Partners ,Lincoln Center,Board
+68,2012,DIRECTORS ,Betty Levin ,Betty Levin,FALSE,"President_, Corporate Art Directions ",Lincoln Center,Board
+69,2012,TREASURER ,Blair W. Effron ,Blair W. Effron,FALSE,Founding Partner Centerview Partners LLC ,Lincoln Center,Board
+70,2012,VICE CHAIRS ,Bruce Kovner ,Bruce Kovner,FALSE,"Chairman_, Caxton Alternative Management LP ",Lincoln Center,Board
+71,2012,DIRECTORS ,Bryan Lourd ,Bryan Lourd,FALSE,"Partner, Managing Director and Co-Chairman_Creative Artists Agency ",Lincoln Center,Board
+72,2012,DIRECTORS ,Christina Baker ,Christina Baker,FALSE,,Lincoln Center,Board
+73,2012,DIRECTORS ,Christopher J. Williams ,Christopher J. Williams,FALSE,"Chairman and Chief Executive Officer The Williams Capital Group, L.P. ",Lincoln Center,Board
+74,2012,DIRECTORS ,Clara Wu Tsai ,Clara Wu Tsai,FALSE,"Director_, The Joe and Clara Tsai Foundation ",Lincoln Center,Board
+75,2012,DIRECTORS ,Daniel Crown ,Daniel Crown,FALSE,"President_, Foray Entertainment and Red Crown Productions ",Lincoln Center,Board
+76,2012,DIRECTORS ,Daniel H. Stern ,Daniel H. Stern,FALSE,Reservoir Capital Group LLC ,Lincoln Center,Board
+77,2012,DIRECTORS ,Daniel S. Och ,Daniel S. Och,FALSE,Chief Executive Officer_Och-Ziff Capital Management Group ,Lincoln Center,Board
+78,2012,DIRECTORS ,David A. Hunt ,David A. Hunt,FALSE,President and Chief Executive Officer Prudential Investment Management ,Lincoln Center,Board
+79,2012,VICE CHAIRS ,David Alan Coulter ,David Alan Coulter,FALSE,"Vice Chairman, Warburg Pincus LLC",Lincoln Center,Board
+80,2012,DIRECTORS ,David H. Koch ,David H. Koch,FALSE,"Executive Vice President Koch Industries, Inc. ",Lincoln Center,Board
+81,2012,DIRECTORS ,David M. Rubenstein ,David M. Rubenstein,FALSE,Co-Founder and Co-CEO The Carlyle Group ,Lincoln Center,Board
+82,2013,DIRECTORS ,Diane M. Coffey ,Diane M. Coffey,FALSE,Managing Director_ Peter J. Solomon Company ,Lincoln Center,Board
+83,2012,DIRECTORS ,Edward P. Gilligan ,Edward P. Gilligan,FALSE,"President, _American Express Company ",Lincoln Center,Board
+84,2012,DIRECTORS ,Efraim Grinberg ,Efraim Grinberg,FALSE,"Chairman & CEO Movado Group, Inc. ",Lincoln Center,Board
+85,2012,DIRECTORS ,Elizabeth Rohatyn ,Elizabeth Rohatyn,FALSE,,Lincoln Center,Board
+86,2012,DIRECTORS ,Elliot S. Jaffe ,Elliot S. Jaffe,FALSE,"Chairman & Co-Founder Ascena Retail Group, Inc. ",Lincoln Center,Board
+87,2012,DIRECTORS ,Gary W. Parr ,Gary W. Parr,FALSE,Chairman_New York Philharmonic ,Lincoln Center,Board
+88,2013,DIRECTORS ,Gayfryd Steinberg ,Gayfryd Steinberg,FALSE,,Lincoln Center,Board
+89,2012,DIRECTORS ,George Walker ,George Walker,FALSE,"Chairman and CEO_, Neuberger Berman Group, LLC ",Lincoln Center,Board
+90,2012,DIRECTORS ,Guoqing Chen ,Guoqing Chen,FALSE,"Chairman_, Pacific American Corporation, HNA Group ",Lincoln Center,Board
+91,2012,DIRECTORS ,"Harold Ford, Jr. ","Harold Ford, Jr.",FALSE,Managing Director Morgan Stanley ,Lincoln Center,Board
+92,2012,DIRECTORS ,Honorable Judith S. Kaye ,Honorable Judith S. Kaye,FALSE,"Skadden, Arps, Slate, Meagher & Flom, LLP ",Lincoln Center,Board
+93,2012,DIRECTORS ,Indra Nooyi ,Indra Nooyi,FALSE,"Chairman and Chief Executive Officer PepsiCo, Inc. ",Lincoln Center,Board
+94,2013,DIRECTORS ,Ingeborg Rennert ,Ingeborg Rennert,FALSE,,Lincoln Center,Board
+95,2012,DIRECTORS ,J. Tomilson Hill ,J. Tomilson Hill,FALSE,"Vice Chairman_, The Blackstone Group ",Lincoln Center,Board
+96,2012,DIRECTORS ,James G. Dinan ,James G. Dinan,FALSE,Founder and Chief Executive Officer York Capital Management ,Lincoln Center,Board
+97,2013,DIRECTORS ,James P. O・Shaughnessy ,James P. O・Shaughnessy,FALSE,Chairman & CEO_ O・Shaughnessy Asset Management ,Lincoln Center,Board
+98,2012,DIRECTORS ,Jay S. Fishman ,Jay S. Fishman,FALSE,"Chairman and Chief Executive Officer The Travelers Companies, Inc. ",Lincoln Center,Board
+99,2013,PRESIDENT ,Jed Bernstein ,Jed Bernstein,FALSE,,Lincoln Center,Board
+100,2012,DIRECTORS ,Jim Herbert ,Jim Herbert,FALSE,Chairman and_ Chief Executive Officer (Founding) First Republic Bank ,Lincoln Center,Board
+101,2012,DIRECTORS ,Jim Rosenthal ,Jim Rosenthal,FALSE,Chief Operating Officer Morgan Stanley ,Lincoln Center,Board
+102,2012,VICE CHAIRS ,Joel S. Ehrenkranz ,Joel S. Ehrenkranz,FALSE,"Partner, Ehrenkranz Partners L.P. ",Lincoln Center,Board
+103,2012,VICE CHAIRS ,John B. Hess ,John B. Hess,FALSE,Chief Executive Officer Hess Corporation ,Lincoln Center,Board
+104,2012,DIRECTORS ,John Wren ,John Wren,FALSE,President and CEO Omnicom Group Inc. ,Lincoln Center,Board
+105,2012,DIRECTORS ,Joseph R. Perella ,Joseph R. Perella,FALSE,Chairman and Founding Partner Perella Weinberg Partners LLP ,Lincoln Center,Board
+106,2012,DIRECTORS ,Julian H. Robertson ,Julian H. Robertson,FALSE,"Chairman_, Tiger Management LLC ",Lincoln Center,Board
+107,2013,DIRECTORS ,Julian Robertson ,Julian Robertson,FALSE,Chairman _Tiger Management L.L.C. ,Lincoln Center,Board
+108,2012,CHAIR ,Katherine Farley ,Katherine Farley,FALSE,,Lincoln Center,Board
+109,2012,DIRECTORS ,Keith T. Banks ,Keith T. Banks,FALSE,"President, U.S. Trust_Bank of America_Private Wealth Management ",Lincoln Center,Board
+110,2012,DIRECTORS ,Kevin W. Kennedy ,Kevin W. Kennedy,FALSE,President and Chief Executive Officer The Metropolitan Opera ,Lincoln Center,Board
+111,2012,VICE CHAIRS ,Laurie M. Tisch ,Laurie M. Tisch,FALSE,"President, _Laurie M. Tisch Illumination Fund ",Lincoln Center,Board
+112,2012,DIRECTORS ,Max R. Shulman ,Max R. Shulman,FALSE,Chairman of the Board School of American Ballet ,Lincoln Center,Board
+113,2013,DIRECTORS ,Michael Lynton ,Michael Lynton,FALSE,"Chief Executive Officer Sony Entertainment, Inc. ",Lincoln Center,Board
+114,2013,DIRECTORS ,Mimi Haas ,Mimi Haas,FALSE,President_ Mimi and Peter Haas Fund ,Lincoln Center,Board
+115,2013,DIRECTORS ,Motomu Takahashi ,Motomu Takahashi,FALSE,"President & Chief Executive Officer Mitsui & Co. (U.S.A.), Inc. ",Lincoln Center,Board
+116,2012,DIRECTORS ,Mr. Mitsuhiko Kawai ,Mr. Mitsuhiko Kawai,FALSE,"President and Chief Executive Officer Mitsui & Co. (U.S.A.), Inc. ",Lincoln Center,Board
+117,2012,DIRECTORS ,Mrs. Ingeborg Hanna Rennert ,Mrs. Ingeborg Hanna Rennert,FALSE,,Lincoln Center,Board
+118,2012,DIRECTORS ,Ms. Diane M. Coffey ,Ms. Diane M. Coffey,FALSE,Managing Director_Peter J. Solomon Company ,Lincoln Center,Board
+119,2012,DIRECTORS ,Peter Frelinghuysen ,Peter Frelinghuysen,FALSE,"Retired Partner, _Morris & McVeigh LLP ",Lincoln Center,Board
+120,2012,DIRECTORS ,Peter S. Kraus ,Peter S. Kraus,FALSE,Chairman and CEO Alliance Bernstein ,Lincoln Center,Board
+121,2012,VICE CHAIRS ,Philip L. Milstein ,Philip L. Milstein,FALSE,"Principal_, Ogden CAP Properties ",Lincoln Center,Board
+122,2013,DIRECTORS ,Ralph Schlosstein ,Ralph Schlosstein,FALSE,President & CEO Evercore ,Lincoln Center,Board
+123,2012,DIRECTORS ,Ren_e Belfer,Ren_e Belfer,FALSE,,Lincoln Center,Board
+124,2012,PRESIDENT,Reynold Levy,Reynold Levy,FALSE,,Lincoln Center,Board
+125,2012,VICE CHAIRS ,Richard K. DeScherer ,Richard K. DeScherer,FALSE,"Chief Legal & Compliance Officer, Bloomberg L.P. ",Lincoln Center,Board
+126,2012,DIRECTORS ,Richard S. Braddock ,Richard S. Braddock,FALSE,,Lincoln Center,Board
+127,2012,DIRECTORS ,Rita E. Hauser ,Rita E. Hauser,FALSE,"President_, The Hauser Foundation, Inc. ",Lincoln Center,Board
+128,2012,DIRECTORS ,Robert A. Iger ,Robert A. Iger,FALSE,"Chairman & CEO_, The Walt Disney Company ",Lincoln Center,Board
+129,2012,DIRECTORS ,Robert Appel ,Robert Appel,FALSE,"President_, Appel Associates ",Lincoln Center,Board
+130,2012,DIRECTORS ,Ronnie Ackman,Ronnie Ackman,FALSE,,Lincoln Center,Board
+131,2012,VICE CHAIRS ,Roy Furman ,Roy Furman,FALSE,Vice Chairman Jefferies LLC ,Lincoln Center,Board
+132,2012,DIRECTORS ,Shelly Lazarus ,Shelly Lazarus,FALSE,Chairman Emeritus Ogilvy & Mather ,Lincoln Center,Board
+133,2013,DIRECTORS ,Sheryl J. Kaye Kevin W. Kennedy ,Sheryl J. Kaye Kevin W. Kennedy,FALSE,President and Chief Executive Officer The Metropolitan Opera ,Lincoln Center,Board
+134,2012,DIRECTORS ,Shiqiang Wu ,Shiqiang Wu,FALSE,"General Manager, U.S.A. Bank of China ",Lincoln Center,Board
+135,2012,DIRECTORS ,Sir Deryck C. Maughan ,Sir Deryck C. Maughan,FALSE,Senior Advisor_Kohlberg Kravis Roberts & Co. ,Lincoln Center,Board
+136,2012,DIRECTORS ,Somesh Khanna ,Somesh Khanna,FALSE,"Director_, McKinsey and Company ",Lincoln Center,Board
+137,2012,DIRECTORS ,Stephen M. Ross ,Stephen M. Ross,FALSE,"Chairman_, Related Companies ",Lincoln Center,Board
+138,2012,DIRECTORS ,Steven A. Kandarian ,Steven A. Kandarian,FALSE,"Chairman, President and Chief Executive Officer MetLife Inc. ",Lincoln Center,Board
+139,2012,DIRECTORS ,Steven R. Swartz ,Steven R. Swartz,FALSE,President and Chief Executive Officer Hearst Corporation ,Lincoln Center,Board
+140,2012,DIRECTORS ,Thomas A. Renyi ,Thomas A. Renyi,FALSE,"Retired Chairman_, The Bank of New York Mellon Corporation ",Lincoln Center,Board
+141,2012,DIRECTORS ,Thomas H. Lee ,Thomas H. Lee,FALSE,"President_, Thomas H. Lee Capital ",Lincoln Center,Board
+142,2012,DIRECTORS ,"William B. Harrison, Jr. ","William B. Harrison, Jr.",FALSE,Former Chairman & CEO JPMorgan Chase & Co. ,Lincoln Center,Board
+143,2012,DIRECTORS ,William C. Morris ,William C. Morris,FALSE,Chairman of the Executive Committee The Metropolitan Opera Association ,Lincoln Center,Board
+144,2012,DIRECTORS ,William E. Ford ,William E. Ford,FALSE,Chief Executive Officer General Atlantic LLC ,Lincoln Center,Board
+145,2012,DIRECTORS ,"William R. Miller, CBE ","William R. Miller, CBE",FALSE,Former Vice Chairman Bristol-Myers Squibb ,Lincoln Center,Board
+146,2013,Chairman ,Ann Ziff ,Ann Ziff,FALSE,,Metropolitan Opera,Board
+147,2013,President and Chief Executive Officer ,Kevin W. Kennedy ,Kevin W. Kennedy,FALSE,,Metropolitan Opera,Board
+148,2013,Chairman of the Executive Committee,Mercedes T. Bass ,Mercedes T. Bass,FALSE,,Metropolitan Opera,Board
+149,2013,Chairman of the Executive Committee ,William C. Morris ,William C. Morris,FALSE,,Metropolitan Opera,Board
+150,2013,Secretary,Judith-Ann Corrente ,Judith-Ann Corrente,FALSE,,Metropolitan Opera,Board
+151,2013,Treasurer,Betsy Cohen ,Betsy Cohen,FALSE,,Metropolitan Opera,Board
+152,2013,Frayda B. Lindemann ,Frayda B. Lindemann ,Frayda B. Lindemann,FALSE,,Metropolitan Opera,Board
+153,2013,Honorary Chairman ,Christine F. Hunter ,Christine F. Hunter,FALSE,,Metropolitan Opera,Board
+154,2013,Honorary Chairman ,James W. Kinnear ,James W. Kinnear,FALSE,,Metropolitan Opera,Board
+155,2013,President Emeritus ,Paul M. Montrone ,Paul M. Montrone,FALSE,,Metropolitan Opera,Board
+156,2013,Vice Chairman Emerita ,Mrs. Ezra K. Zilkha ,Mrs. Ezra K. Zilkha,FALSE,,Metropolitan Opera,Board
+157,2013,Managing Director,"Frank A. Bennack, Jr. ","Frank A. Bennack, Jr.",FALSE,,Metropolitan Opera,Board
+158,2013,Managing Director,Susan S. Braddock ,Susan S. Braddock,FALSE,,Metropolitan Opera,Board
+159,2013,Managing Director,"Leonard S. Coleman, Jr. ","Leonard S. Coleman, Jr.",FALSE,,Metropolitan Opera,Board
+160,2013,Managing Director,Edgar Foster Daniels ,Edgar Foster Daniels,FALSE,,Metropolitan Opera,Board
+161,2013,Managing Director,Rena De Sisto ,Rena De Sisto,FALSE,,Metropolitan Opera,Board
+162,2013,Managing Director,Jerry del Missier ,Jerry del Missier,FALSE,,Metropolitan Opera,Board
+163,2013,Managing Director,Mrs. Paul Desmarais Sr.,Mrs. Paul Desmarais Sr.,FALSE,,Metropolitan Opera,Board
+164,2013,Managing Director,Misook Doolittle ,Misook Doolittle,FALSE,,Metropolitan Opera,Board
+165,2014,Managing Director,Stephanie T. Foster,Stephanie T. Foster,FALSE,,Metropolitan Opera,Board
+166,2013,Managing Director,Marina Kellen French ,Marina Kellen French,FALSE,,Metropolitan Opera,Board
+167,2013,Managing Director,Beth W. Glynn ,Beth W. Glynn,FALSE,,Metropolitan Opera,Board
+168,2014,Managing Director,Joan Granlund,Joan Granlund,FALSE,,Metropolitan Opera,Board
+169,2013,Managing Director,Eugene P. Grisanti ,Eugene P. Grisanti,FALSE,,Metropolitan Opera,Board
+170,2014,Managing Director,Eckkehart Hassel-Weiler,Eckkehart Hassel-Weiler,FALSE,,Metropolitan Opera,Board
+171,2013,Managing Director,Rolf Heitmeyer ,Rolf Heitmeyer,FALSE,,Metropolitan Opera,Board
+172,2013,Managing Director,Marlene Hess,Marlene Hess,FALSE,,Metropolitan Opera,Board
+173,2014,Managing Director,Agnes Hsu-Tang,Agnes Hsu-Tang,FALSE,,Metropolitan Opera,Board
+174,2013,Managing Director,Christine F. Hunter ,Christine F. Hunter,FALSE,,Metropolitan Opera,Board
+175,2013,Managing Director,Frederick Iseman ,Frederick Iseman,FALSE,,Metropolitan Opera,Board
+176,2013,Managing Director,John J. Noffo Kahn ,John J. Noffo Kahn,FALSE,,Metropolitan Opera,Board
+177,2013,Managing Director,James W. Kinnear ,James W. Kinnear,FALSE,,Metropolitan Opera,Board
+178,2013,Managing Director,Bruce Kovner ,Bruce Kovner,FALSE,,Metropolitan Opera,Board
+179,2013,Managing Director,Camille D. LaBarre ,Camille D. LaBarre,FALSE,,Metropolitan Opera,Board
+180,2013,Managing Director,"Mrs. Walter J. Laughery, Jr. ","Mrs. Walter J. Laughery, Jr.",FALSE,,Metropolitan Opera,Board
+181,2013,Managing Director,Harry T. Lee ,Harry T. Lee,FALSE,,Metropolitan Opera,Board
+182,2013,Managing Director,Jeanette Lerman-Neubauer ,Jeanette Lerman-Neubauer,FALSE,,Metropolitan Opera,Board
+183,2013,Managing Director,Dafna Meitar-Nechmad ,Dafna Meitar-Nechmad,FALSE,,Metropolitan Opera,Board
+184,2013,Managing Director,Mrs. Corbin R. Miller ,Mrs. Corbin R. Miller,FALSE,,Metropolitan Opera,Board
+185,2013,Managing Director,William R. Miller ,William R. Miller,FALSE,,Metropolitan Opera,Board
+186,2013,Managing Director,Vivian Milstein ,Vivian Milstein,FALSE,,Metropolitan Opera,Board
+187,2013,Managing Director,Elena A. Prokupets ,Elena A. Prokupets,FALSE,,Metropolitan Opera,Board
+188,2013,Managing Director,Laura J. Sloate ,Laura J. Sloate,FALSE,,Metropolitan Opera,Board
+189,2013,Managing Director,Howard Solomon ,Howard Solomon,FALSE,,Metropolitan Opera,Board
+190,2013,Managing Director,"Hon. David A. Straz, Jr. ","Hon. David A. Straz, Jr.",FALSE,,Metropolitan Opera,Board
+191,2013,Managing Director,Ambassador Nicholas F. Taubman_,Ambassador Nicholas F. Taubman_,FALSE,,Metropolitan Opera,Board
+192,2013,Managing Director,"Mrs. Wilmer J. Thomas, Jr. ","Mrs. Wilmer J. Thomas, Jr.",FALSE,,Metropolitan Opera,Board
+193,2013,Managing Director,Robert I. Toll ,Robert I. Toll,FALSE,,Metropolitan Opera,Board
+194,2013,Managing Director,Robert L. Turner_,Robert L. Turner_,FALSE,,Metropolitan Opera,Board
+195,2013,Chairman,Daniel Brodsky ,Daniel Brodsky,FALSE,,Metropolitan Museum,Board
+196,2013,Vice chairman,Russell L. Carson ,Russell L. Carson,FALSE,,Metropolitan Museum,Board
+197,2013,Vice chairman,"Richard L. Chilton,  Jr. ","Richard L. Chilton, Jr.",FALSE,,Metropolitan Museum,Board
+198,2013,Vice chairman,Lulu C. Wang ,Lulu C. Wang,FALSE,,Metropolitan Museum,Board
+199,2013,Elective trustee,J. Tomilson Hill ,J. Tomilson Hill,FALSE,,Metropolitan Museum,Board
+200,2013,Elective trustee,Denis P. Kelleher ,Denis P. Kelleher,FALSE,,Metropolitan Museum,Board
+201,2013,Elective trustee,William C. Rudin ,William C. Rudin,FALSE,,Metropolitan Museum,Board
+202,2013,Elective trustee,Alejandro Santo Domingo,Alejandro Santo Domingo,FALSE,,Metropolitan Museum,Board
+203,2013,Elective trustee,Andrew M. Saul ,Andrew M. Saul,FALSE,,Metropolitan Museum,Board
+204,2013,Elective trustee,Anna Wintour ,Anna Wintour,FALSE,,Metropolitan Museum,Board
+205,2013,Elective trustee,Candace K. Beinecke ,Candace K. Beinecke,FALSE,,Metropolitan Museum,Board
+206,2013,Elective trustee,Leon D. Black ,Leon D. Black,FALSE,,Metropolitan Museum,Board
+207,2013,Elective trustee,Wellington Z. Chen ,Wellington Z. Chen,FALSE,,Metropolitan Museum,Board
+208,2013,Elective trustee,Hamilton E. James ,Hamilton E. James,FALSE,,Metropolitan Museum,Board
+209,2013,Elective trustee,Joyce Frank Menschel ,Joyce Frank Menschel,FALSE,,Metropolitan Museum,Board
+210,2013,Elective trustee,Jeffrey M. Peek ,Jeffrey M. Peek,FALSE,,Metropolitan Museum,Board
+211,2013,Elective trustee,Sir Paul Ruddock ,Sir Paul Ruddock,FALSE,,Metropolitan Museum,Board
+212,2013,Elective trustee,Shelby White ,Shelby White,FALSE,,Metropolitan Museum,Board
+213,2013,Elective trustee,Daniel Brodsky ,Daniel Brodsky,FALSE,,Metropolitan Museum,Board
+214,2013,Elective trustee,Russell L. Carson ,Russell L. Carson,FALSE,,Metropolitan Museum,Board
+215,2013,Elective trustee,Mark Fisch ,Mark Fisch,FALSE,,Metropolitan Museum,Board
+216,2013,Elective trustee,Marina Kellen French ,Marina Kellen French,FALSE,,Metropolitan Museum,Board
+217,2013,Elective trustee,Philip H. Isles ,Philip H. Isles,FALSE,,Metropolitan Museum,Board
+218,2013,Elective trustee,Ann G. Tenenbaum ,Ann G. Tenenbaum,FALSE,,Metropolitan Museum,Board
+219,2013,Elective trustee,Jeffrey W. Greenberg ,Jeffrey W. Greenberg,FALSE,,Metropolitan Museum,Board
+220,2013,Elective trustee,Bonnie B. Himmelman ,Bonnie B. Himmelman,FALSE,,Metropolitan Museum,Board
+221,2013,Elective trustee,Bonnie J. Sacerdote ,Bonnie J. Sacerdote,FALSE,,Metropolitan Museum,Board
+222,2013,Elective trustee,James E. Shipp ,James E. Shipp,FALSE,,Metropolitan Museum,Board
+223,2013,Elective trustee,Andrew Solomon ,Andrew Solomon,FALSE,,Metropolitan Museum,Board
+224,2013,Elective trustee,Barrie A. Wigmore ,Barrie A. Wigmore,FALSE,,Metropolitan Museum,Board
+225,2013,Elective trustee,Charles N. Atkins,Charles N. Atkins,FALSE,,Metropolitan Museum,Board
+226,2013,Elective trustee,Bijan Mossavar-Rahmani,Bijan Mossavar-Rahmani,FALSE,,Metropolitan Museum,Board
+227,2013,Elective trustee,John A. Paulson,John A. Paulson,FALSE,,Metropolitan Museum,Board
+228,2013,Elective trustee,Samantha Boardman Rosen,Samantha Boardman Rosen,FALSE,,Metropolitan Museum,Board
+229,2014,Elective trustee,Stephen M. Cutler,Stephen M. Cutler,FALSE,,Metropolitan Museum,Board
+230,2013,Emeritus,Pl_cido Arango ,Pl_cido Arango,FALSE,,Metropolitan Museum,Board
+231,2013,Emeritus,Ren_e E. Belfer ,Ren_e E. Belfer,FALSE,,Metropolitan Museum,Board
+232,2013,Emeritus,Mrs. Jackson Burke ,Mrs. Jackson Burke,FALSE,,Metropolitan Museum,Board
+233,2013,Emeritus,Walter Burke ,Walter Burke,FALSE,,Metropolitan Museum,Board
+234,2013,Emeritus,Mrs. B. Gerald Cantor ,Mrs. B. Gerald Cantor,FALSE,,Metropolitan Museum,Board
+235,2013,Emeritus,Michel David-Weill ,Michel David-Weill,FALSE,,Metropolitan Museum,Board
+236,2013,Emeritus,S. Parker Gilbert ,S. Parker Gilbert,FALSE,,Metropolitan Museum,Board
+237,2013,Emeritus,Conrad K. Harper ,Conrad K. Harper,FALSE,,Metropolitan Museum,Board
+238,2013,Emeritus,Mrs. Henry J. Heinz II ,Mrs. Henry J. Heinz II,FALSE,,Metropolitan Museum,Board
+239,2013,Emeritus,Sir Joseph Hotung ,Sir Joseph Hotung,FALSE,,Metropolitan Museum,Board
+240,2013,Emeritus,James R. Houghton ,James R. Houghton,FALSE,,Metropolitan Museum,Board
+241,2013,Emeritus,Mrs. Herbert Irving ,Mrs. Herbert Irving,FALSE,,Metropolitan Museum,Board
+242,2013,Emeritus,Henry A. Kissinger ,Henry A. Kissinger,FALSE,,Metropolitan Museum,Board
+243,2013,Emeritus,David H. Koch ,David H. Koch,FALSE,,Metropolitan Museum,Board
+244,2013,Emeritus,Barnabas McHenry ,Barnabas McHenry,FALSE,,Metropolitan Museum,Board
+245,2013,Emeritus,Mary R. Morgan ,Mary R. Morgan,FALSE,,Metropolitan Museum,Board
+246,2013,Emeritus,George B. Munroe ,George B. Munroe,FALSE,,Metropolitan Museum,Board
+247,2013,Emeritus,Eliot C. Nolen ,Eliot C. Nolen,FALSE,,Metropolitan Museum,Board
+248,2013,Emeritus,Robert M. Pennoyer ,Robert M. Pennoyer,FALSE,,Metropolitan Museum,Board
+249,2013,Emeritus,Mrs. Milton Petrie ,Mrs. Milton Petrie,FALSE,,Metropolitan Museum,Board
+250,2013,Emeritus,Cynthia Hazen Polsky ,Cynthia Hazen Polsky,FALSE,,Metropolitan Museum,Board
+251,2013,Emeritus,Annette de la Renta ,Annette de la Renta,FALSE,,Metropolitan Museum,Board
+252,2013,Emeritus,Frank E. Richardson ,Frank E. Richardson,FALSE,,Metropolitan Museum,Board
+253,2013,Emeritus,"E. John Rosenwald, Jr. ","E. John Rosenwald, Jr.",FALSE,,Metropolitan Museum,Board
+254,2013,Emeritus,James J. Ross ,James J. Ross,FALSE,,Metropolitan Museum,Board
+255,2013,Emeritus,Henry B. Schacht ,Henry B. Schacht,FALSE,,Metropolitan Museum,Board
+256,2013,Emeritus,David T. Schiff ,David T. Schiff,FALSE,,Metropolitan Museum,Board
+257,2013,Emeritus,Muriel Silberstein-Storfer ,Muriel Silberstein-Storfer,FALSE,,Metropolitan Museum,Board
+258,2013,Emeritus,Carl Spielvogel ,Carl Spielvogel,FALSE,,Metropolitan Museum,Board
+259,2013,Emeritus,Oscar L. Tang ,Oscar L. Tang,FALSE,,Metropolitan Museum,Board
+260,2013,Emeritus,Allan Weissglass ,Allan Weissglass,FALSE,,Metropolitan Museum,Board
+261,2013,Emeritus,Malcolm H. Wiener ,Malcolm H. Wiener,FALSE,,Metropolitan Museum,Board
+262,2013,Emeritus,Jayne Wrightsman ,Jayne Wrightsman,FALSE,,Metropolitan Museum,Board
+263,2013,Honorary chairman,David Rockefeller,David Rockefeller,FALSE,,Museum of Modern Art,Board
+264,2013,Honorary chairman,Ronald S. Lauder,Ronald S. Lauder,FALSE,,Museum of Modern Art,Board
+265,2013,Chairman emeritus,Robert B. Menschel,Robert B. Menschel,FALSE,,Museum of Modern Art,Board
+266,2013,President Emerita,Agnes Gund,Agnes Gund,FALSE,,Museum of Modern Art,Board
+267,2013,President Emeritus,Donald B. Marron,Donald B. Marron,FALSE,,Museum of Modern Art,Board
+268,2013,Chairman,Jerry I. Speyer,Jerry I. Speyer,FALSE,,Museum of Modern Art,Board
+269,2013,President,Marie-Jos_e Kravis,Marie-Jos_e Kravis,FALSE,,Museum of Modern Art,Board
+270,2013,Vice Chairman,Sid R. Bass,Sid R. Bass,FALSE,,Museum of Modern Art,Board
+271,2013,Vice Chairman,Leon D. Black,Leon D. Black,FALSE,,Museum of Modern Art,Board
+272,2013,Vice Chairman,Mimi Haas,Mimi Haas,FALSE,,Museum of Modern Art,Board
+273,2013,Vice Chairman,Richard E. Salomon,Richard E. Salomon,FALSE,,Museum of Modern Art,Board
+274,2013,Director,Glenn D. Lowry,Glenn D. Lowry,FALSE,,Museum of Modern Art,Board
+275,2013,Assistant Treasurer,James Gara,James Gara,FALSE,,Museum of Modern Art,Board
+276,2013,Secretary,Patty Lipshutz,Patty Lipshutz,FALSE,,Museum of Modern Art,Board
+277,2013,Trustee,Wallis Annenberg,Wallis Annenberg,FALSE,,Museum of Modern Art,Board
+278,2013,Trustee,Sid R. Bass,Sid R. Bass,FALSE,,Museum of Modern Art,Board
+279,2013,Trustee,Lawrence B. Benenson,Lawrence B. Benenson,FALSE,,Museum of Modern Art,Board
+280,2013,Trustee,Leon D. Black,Leon D. Black,FALSE,,Museum of Modern Art,Board
+281,2013,Trustee,Clarissa Alcock Bronfman,Clarissa Alcock Bronfman,FALSE,,Museum of Modern Art,Board
+282,2013,Trustee,Patricia Phelps de Cisneros,Patricia Phelps de Cisneros,FALSE,,Museum of Modern Art,Board
+283,2013,Trustee,Paula Crown,Paula Crown,FALSE,,Museum of Modern Art,Board
+284,2013,Trustee,David Dechman,David Dechman,FALSE,,Museum of Modern Art,Board
+285,2013,Trustee,Glenn Dubin,Glenn Dubin,FALSE,,Museum of Modern Art,Board
+286,2013,Trustee,John Elkann,John Elkann,FALSE,,Museum of Modern Art,Board
+287,2013,Trustee,Laurence Fink,Laurence Fink,FALSE,,Museum of Modern Art,Board
+288,2013,Trustee,Kathleen Fuld,Kathleen Fuld,FALSE,,Museum of Modern Art,Board
+289,2013,Trustee,Howard Gardner,Howard Gardner,FALSE,,Museum of Modern Art,Board
+290,2013,Trustee,Anne Dias Griffin,Anne Dias Griffin,FALSE,,Museum of Modern Art,Board
+291,2013,Trustee,Mimi Haas,Mimi Haas,FALSE,,Museum of Modern Art,Board
+292,2013,Trustee,Alexandra A. Herzan,Alexandra A. Herzan,FALSE,,Museum of Modern Art,Board
+293,2013,Trustee,Marlene Hess,Marlene Hess,FALSE,,Museum of Modern Art,Board
+294,2014,Trustee,Ronnie Hayman,Ronnie Hayman,FALSE,,Museum of Modern Art,Board
+295,2013,Trustee,AC Hudgins,AC Hudgins,FALSE,,Museum of Modern Art,Board
+296,2013,Trustee,Jill Kraus,Jill Kraus,FALSE,,Museum of Modern Art,Board
+297,2013,Trustee,Marie-Jos_e Kravis,Marie-Jos_e Kravis,FALSE,,Museum of Modern Art,Board
+298,2013,Trustee,Thomas H. Lee,Thomas H. Lee,FALSE,,Museum of Modern Art,Board
+299,2013,Trustee,Michael Lynne,Michael Lynne,FALSE,,Museum of Modern Art,Board
+300,2013,Trustee,Philip S. Niarchos,Philip S. Niarchos,FALSE,,Museum of Modern Art,Board
+301,2013,Trustee,James G. Niven,James G. Niven,FALSE,,Museum of Modern Art,Board
+302,2013,Trustee,Peter Norton,Peter Norton,FALSE,,Museum of Modern Art,Board
+303,2014,Trustee,Daniel S. Och,Daniel S. Och,FALSE,,Museum of Modern Art,Board
+304,2013,Trustee,Maja Oeri,Maja Oeri,FALSE,,Museum of Modern Art,Board
+305,2013,Trustee,Michael S. Ovitz,Michael S. Ovitz,FALSE,,Museum of Modern Art,Board
+306,2013,Trustee,Richard D. Parsons,Richard D. Parsons,FALSE,,Museum of Modern Art,Board
+307,2013,Trustee,Ronald O. Perelman,Ronald O. Perelman,FALSE,,Museum of Modern Art,Board
+308,2013,Trustee,Sharon Percy Rockefeller,Sharon Percy Rockefeller,FALSE,,Museum of Modern Art,Board
+309,2013,Trustee,Marcus Samuelsson,Marcus Samuelsson,FALSE,,Museum of Modern Art,Board
+310,2013,Trustee,Anna Deavere Smith,Anna Deavere Smith,FALSE,,Museum of Modern Art,Board
+311,2013,Trustee,Jerry I. Speyer,Jerry I. Speyer,FALSE,,Museum of Modern Art,Board
+312,2013,Trustee,Ricardo Steinbruch,Ricardo Steinbruch,FALSE,,Museum of Modern Art,Board
+313,2013,Trustee,Alice M. Tisch,Alice M. Tisch,FALSE,,Museum of Modern Art,Board
+314,2013,Trustee,Gary Winnick,Gary Winnick,FALSE,,Museum of Modern Art,Board
+315,2013,Life trustee,Eli Broad,Eli Broad,FALSE,,Museum of Modern Art,Board
+316,2013,Life trustee,Douglas S. Cramer,Douglas S. Cramer,FALSE,,Museum of Modern Art,Board
+317,2013,Life trustee,Joel S. Ehrenkranz,Joel S. Ehrenkranz,FALSE,,Museum of Modern Art,Board
+318,2013,Life trustee,Gianluigi Gabetti,Gianluigi Gabetti,FALSE,,Museum of Modern Art,Board
+319,2013,Life trustee,Barbara Jakobson,Barbara Jakobson,FALSE,,Museum of Modern Art,Board
+320,2013,Life trustee,Werner H. Kramarsky,Werner H. Kramarsky,FALSE,,Museum of Modern Art,Board
+321,2013,Life trustee,June Noble Larkin,June Noble Larkin,FALSE,,Museum of Modern Art,Board
+322,2013,Life trustee,Donald B. Marron,Donald B. Marron,FALSE,,Museum of Modern Art,Board
+323,2013,Life trustee,Robert B. Menschel,Robert B. Menschel,FALSE,,Museum of Modern Art,Board
+324,2013,Life trustee,Peter G. Peterson,Peter G. Peterson,FALSE,,Museum of Modern Art,Board
+325,2013,Life trustee,Emily Rauh Pulitzer,Emily Rauh Pulitzer,FALSE,,Museum of Modern Art,Board
+326,2013,Life trustee,David Rockefeller,David Rockefeller,FALSE,,Museum of Modern Art,Board
+327,2013,Life trustee,Anna Marie Shapiro,Anna Marie Shapiro,FALSE,,Museum of Modern Art,Board
+328,2013,Life trustee,Jeanne C. Thayer,Jeanne C. Thayer,FALSE,,Museum of Modern Art,Board
+329,2013,Life trustee,Joan Tisch,Joan Tisch,FALSE,,Museum of Modern Art,Board
+330,2013,Life trustee,Edgar Wachenheim III,Edgar Wachenheim III,FALSE,,Museum of Modern Art,Board
+331,2013,Director,Klaus Biesenbach,Klaus Biesenbach,FALSE,,MOMA PS1,Board
+332,2013,Chairman,Agnes Gund,Agnes Gund,FALSE,,MOMA PS1,Board
+333,2013,Vice Chairman,Philip E. Aarons,Philip E. Aarons,FALSE,,MOMA PS1,Board
+334,2013,Treasurer,John Comfort,John Comfort,FALSE,,MOMA PS1,Board
+335,2013,Trustee,Sheikha Hoor Al-Qasimi,Sheikha Hoor Al-Qasimi,FALSE,,MOMA PS1,Board
+336,2013,Trustee,Richard Chang,Richard Chang,FALSE,,MOMA PS1,Board
+337,2013,Trustee,Angela Chao,Angela Chao,FALSE,,MOMA PS1,Board
+338,2013,Trustee,Dana Farouki,Dana Farouki,FALSE,,MOMA PS1,Board
+339,2013,Trustee,Lex Fenwick,Lex Fenwick,FALSE,,MOMA PS1,Board
+340,2013,Trustee,Wendy Fisher,Wendy Fisher,FALSE,,MOMA PS1,Board
+341,2013,Trustee,Adriana Cisneros de Griffin,Adriana Cisneros de Griffin,FALSE,,MOMA PS1,Board
+342,2013,Trustee,Susan Hayden,Susan Hayden,FALSE,,MOMA PS1,Board
+343,2013,Trustee,Adam Kimmel,Adam Kimmel,FALSE,,MOMA PS1,Board
+344,2013,Trustee,Sydie Lansing,Sydie Lansing,FALSE,,MOMA PS1,Board
+345,2013,Trustee,Jennifer McSweeney,Jennifer McSweeney,FALSE,,MOMA PS1,Board
+346,2013,Trustee,Peter Norton,Peter Norton,FALSE,,MOMA PS1,Board
+347,2013,Trustee,Diana Widmaier Picasso,Diana Widmaier Picasso,FALSE,,MOMA PS1,Board
+348,2013,Trustee,Cindy Sherman,Cindy Sherman,FALSE,,MOMA PS1,Board
+349,2013,Trustee,Tom Slaughter,Tom Slaughter,FALSE,,MOMA PS1,Board
+350,2013,Trustee,Julia Stoschek,Julia Stoschek,FALSE,,MOMA PS1,Board
+351,2013,Trustee,Beth Swofford,Beth Swofford,FALSE,,MOMA PS1,Board
+352,2013,Trustee,David Teiger,David Teiger,FALSE,,MOMA PS1,Board
+353,2013,Trustee,Mickalene Thomas,Mickalene Thomas,FALSE,,MOMA PS1,Board
+354,2013,Chairman,Gary W. Parr,Gary W. Parr,FALSE,,New York Philharmonic,Board
+355,2013,Executive Director,Matthew VanBesien,Matthew VanBesien,FALSE,,New York Philharmonic,Board
+356,2013,Secretary,Daisy M. Soros,Daisy M. Soros,FALSE,,New York Philharmonic,Board
+357,2013,Treasurer,Timothy M. George,Timothy M. George,FALSE,,New York Philharmonic,Board
+358,2013,Director,Lawrence D. Ackman,Lawrence D. Ackman,FALSE,,New York Philharmonic,Board
+359,2013,Director,Alec Baldwin,Alec Baldwin,FALSE,,New York Philharmonic,Board
+360,2013,Director,Joshua Bell,Joshua Bell,FALSE,,New York Philharmonic,Board
+361,2013,Director,Dr. Clemens B_rsig,Dr. Clemens B_rsig,FALSE,,New York Philharmonic,Board
+362,2014,Director,Yefim Bronfman,Yefim Bronfman,FALSE,,New York Philharmonic,Board
+363,2013,Director,Kenneth A. Buckfire,Kenneth A. Buckfire,FALSE,,New York Philharmonic,Board
+364,2013,Director,James E. Buckman,James E. Buckman,FALSE,,New York Philharmonic,Board
+365,2013,Director,Laura Chang,Laura Chang,FALSE,,New York Philharmonic,Board
+366,2014,Director,Angela Chen,Angela Chen,FALSE,,New York Philharmonic,Board
+367,2013,Director,Diane Chesin,Diane Chesin,FALSE,,New York Philharmonic,Board
+368,2013,Director,Peter D. Cummings,Peter D. Cummings,FALSE,,New York Philharmonic,Board
+369,2013,Director,Toos N. Daruvala,Toos N. Daruvala,FALSE,,New York Philharmonic,Board
+370,2013,Director,Lodewijk J.R. de Vink,Lodewijk J.R. de Vink,FALSE,,New York Philharmonic,Board
+371,2014,Director,Carol Fiorello,Carol Fiorello,FALSE,,New York Philharmonic,Board
+372,2013,Director,J. Christopher Flowers,J. Christopher Flowers,FALSE,,New York Philharmonic,Board
+373,2013,Director,Daria L. Foster,Daria L. Foster,FALSE,,New York Philharmonic,Board
+374,2013,Director,Annabelle K. Garrett,Annabelle K. Garrett,FALSE,,New York Philharmonic,Board
+375,2013,Director,Whoopi Goldberg,Whoopi Goldberg,FALSE,,New York Philharmonic,Board
+376,2013,Director,Paul B. Guenther,Paul B. Guenther,FALSE,,New York Philharmonic,Board
+377,2013,Director,Gurnee F. Hart,Gurnee F. Hart,FALSE,,New York Philharmonic,Board
+378,2013,Director,Gerald L. Hassell,Gerald L. Hassell,FALSE,,New York Philharmonic,Board
+379,2013,Director,"Robert S. Hekemian, Jr.","Robert S. Hekemian, Jr.",FALSE,,New York Philharmonic,Board
+380,2013,Director,C. Robert Henrikson,C. Robert Henrikson,FALSE,,New York Philharmonic,Board
+381,2013,Director,Ludmila Schwarzenberg Hess,Ludmila Schwarzenberg Hess,FALSE,,New York Philharmonic,Board
+382,2013,Director,Stephen Heyer,Stephen Heyer,FALSE,,New York Philharmonic,Board
+383,2013,Director,Ann Johnson,Ann Johnson,FALSE,,New York Philharmonic,Board
+384,2013,Director,Peter Jungen,Peter Jungen,FALSE,,New York Philharmonic,Board
+385,2013,Director,Mitsuhiko Kawai,Mitsuhiko Kawai,FALSE,,New York Philharmonic,Board
+386,2013,Director,H. Frederick Krimendahl II,H. Frederick Krimendahl II,FALSE,,New York Philharmonic,Board
+387,2013,Director,Honey M. Kurtz,Honey M. Kurtz,FALSE,,New York Philharmonic,Board
+388,2013,Director,Christian A. Lange,Christian A. Lange,FALSE,,New York Philharmonic,Board
+389,2013,Director,Karen T. LeFrak,Karen T. LeFrak,FALSE,,New York Philharmonic,Board
+390,2013,Director,"William M. Lewis, Jr.","William M. Lewis, Jr.",FALSE,,New York Philharmonic,Board
+391,2013,Director,Alan S. MacDonald,Alan S. MacDonald,FALSE,,New York Philharmonic,Board
+392,2013,Director,Peter W. May,Peter W. May,FALSE,,New York Philharmonic,Board
+393,2013,Director,"Harold Mitchell, AC","Harold Mitchell, AC",FALSE,,New York Philharmonic,Board
+394,2013,Director,Lizabeth A. Newman,Lizabeth A. Newman,FALSE,,New York Philharmonic,Board
+395,2013,Director,Charles F. Niemeth,Charles F. Niemeth,FALSE,,New York Philharmonic,Board
+396,2013,Director,"C. Allen Parker, Esq.","C. Allen Parker, Esq.",FALSE,,New York Philharmonic,Board
+397,2013,Director,Itzhak Perlman,Itzhak Perlman,FALSE,,New York Philharmonic,Board
+398,2013,Director,Joel I. Picket,Joel I. Picket,FALSE,,New York Philharmonic,Board
+399,2013,Director,Antonio Quintella,Antonio Quintella,FALSE,,New York Philharmonic,Board
+400,2013,Director,Susan Rose,Susan Rose,FALSE,,New York Philharmonic,Board
+401,2013,Director,Carol D. Schaefer,Carol D. Schaefer,FALSE,,New York Philharmonic,Board
+402,2013,Director,Oscar S. Schafer,Oscar S. Schafer,FALSE,,New York Philharmonic,Board
+403,2013,Director,Shirley Bacot Shamel,Shirley Bacot Shamel,FALSE,,New York Philharmonic,Board
+404,2013,Director,Larry A. Silverstein,Larry A. Silverstein,FALSE,,New York Philharmonic,Board
+405,2014,Director,Motumu Takahashi,Motumu Takahashi,FALSE,,New York Philharmonic,Board
+406,2013,Director,Oscar L. Tang,Oscar L. Tang,FALSE,,New York Philharmonic,Board
+407,2013,Director,Pamela Thomas-Graham,Pamela Thomas-Graham,FALSE,,New York Philharmonic,Board
+408,2013,Director,Bobby Tudor,Bobby Tudor,FALSE,,New York Philharmonic,Board
+409,2013,Director,Ronald J. Ulrich,Ronald J. Ulrich,FALSE,,New York Philharmonic,Board
+410,2014,Director,Daria L. Wallach,Daria L. Wallach,FALSE,,New York Philharmonic,Board
+411,2014,Director,Mary L. Wallach,Mary L. Wallach,FALSE,,New York Philharmonic,Board
+412,2013,Director,Sandra F. Warshawsky,Sandra F. Warshawsky,FALSE,,New York Philharmonic,Board
+413,2013,Chairman Emeritus,Paul B. Guenther,Paul B. Guenther,FALSE,,New York Philharmonic,Board
+414,2013,Chairman Emeritus,Carlos Moseley,Carlos Moseley,FALSE,,New York Philharmonic,Board
+415,2013,Director Emeritus,Donald Blinken,Donald Blinken,FALSE,,New York Philharmonic,Board
+416,2013,Director Emeritus,Edith S. Bouriez,Edith S. Bouriez,FALSE,,New York Philharmonic,Board
+417,2013,Director Emeritus,Dale M. Frehse,Dale M. Frehse,FALSE,,New York Philharmonic,Board
+418,2013,Director Emeritus,Gunther E. Greiner,Gunther E. Greiner,FALSE,,New York Philharmonic,Board
+419,2013,Director Emeritus,William J. McDonough,William J. McDonough,FALSE,,New York Philharmonic,Board
+420,2013,Director Emeritus,Phyllis J. Mills,Phyllis J. Mills,FALSE,,New York Philharmonic,Board
+421,2013,Director Emeritus,Donald A. Pels,Donald A. Pels,FALSE,,New York Philharmonic,Board
+422,2013,Director Emeritus,Paula L. Root,Paula L. Root,FALSE,,New York Philharmonic,Board
+423,2013,Director Emeritus,Benjamin M. Rosen,Benjamin M. Rosen,FALSE,,New York Philharmonic,Board
+424,2013,Director Emeritus,Joel E. Smilow,Joel E. Smilow,FALSE,,New York Philharmonic,Board
+425,2013,Director Emeritus,Stephen Stamas,Stephen Stamas,FALSE,,New York Philharmonic,Board
+426,2013,Chairman,Sanford I. Weill,Sanford I. Weill,FALSE,,Carnegie Hall,Board
+427,2013,Vice Chairman,Mercedes T. Bass,Mercedes T. Bass,FALSE,,Carnegie Hall,Board
+428,2013,Vice Chairman,Clarissa Alcock Bronfman,Clarissa Alcock Bronfman,FALSE,,Carnegie Hall,Board
+429,2013,Vice Chairman,Klaus Jacobs,Klaus Jacobs,FALSE,,Carnegie Hall,Board
+430,2013,Vice Chairman,Peter W. May,Peter W. May,FALSE,,Carnegie Hall,Board
+431,2013,Vice Chairman,Ronald O. Perelman,Ronald O. Perelman,FALSE,,Carnegie Hall,Board
+432,2013,Vice Chairman,Burton P. Resnick,Burton P. Resnick,FALSE,,Carnegie Hall,Board
+433,2013,Secretary,Kenneth J. Bialkin,Kenneth J. Bialkin,FALSE,,Carnegie Hall,Board
+434,2013,Treasurer,Edward C. Forst,Edward C. Forst,FALSE,,Carnegie Hall,Board
+435,2013,Executive and Artistic Director,Clive Gillenson,Clive Gillenson,FALSE,,Carnegie Hall,Board
+436,2013,Chairman Emeritus,Richard A. Debs,Richard A. Debs,FALSE,,Carnegie Hall,Board
+437,2013,Chairman Emeritus,James D. Wolfensohn,James D. Wolfensohn,FALSE,,Carnegie Hall,Board
+438,2013,Trustee,Earle S. Altman,Earle S. Altman,FALSE,,Carnegie Hall,Board
+439,2013,Trustee,Martina Arroyo,Martina Arroyo,FALSE,,Carnegie Hall,Board
+440,2013,Trustee,Emanuel Ax,Emanuel Ax,FALSE,,Carnegie Hall,Board
+441,2013,Trustee,Mercedes T. Bass,Mercedes T. Bass,FALSE,,Carnegie Hall,Board
+442,2013,Trustee,Norton Belknap,Norton Belknap,FALSE,,Carnegie Hall,Board
+443,2013,Trustee,Ronald E. Blaylock,Ronald E. Blaylock,FALSE,,Carnegie Hall,Board
+444,2013,Trustee,Nicola Bulgari,Nicola Bulgari,FALSE,,Carnegie Hall,Board
+445,2013,Trustee,Yoko Nagae Ceschina,Yoko Nagae Ceschina,FALSE,,Carnegie Hall,Board
+446,2013,Trustee,Gregory T. Durant,Gregory T. Durant,FALSE,,Carnegie Hall,Board
+447,2013,Trustee,Judith W. Evnin,Judith W. Evnin,FALSE,,Carnegie Hall,Board
+448,2013,Trustee,Anne M. Finucane,Anne M. Finucane,FALSE,,Carnegie Hall,Board
+449,2013,Trustee,Ren_e Fleming,Ren_e Fleming,FALSE,,Carnegie Hall,Board
+450,2013,Trustee,Edward C. Forst,Edward C. Forst,FALSE,,Carnegie Hall,Board
+451,2013,Trustee,Marina Kellen French,Marina Kellen French,FALSE,,Carnegie Hall,Board
+452,2013,Trustee,Clive Gillinson,Clive Gillinson,FALSE,,Carnegie Hall,Board
+453,2013,Trustee,The Honorable Roy M. Goodman,The Honorable Roy M. Goodman,FALSE,,Carnegie Hall,Board
+454,2013,Trustee,Marilyn Horne,Marilyn Horne,FALSE,,Carnegie Hall,Board
+455,2013,Trustee,Stephen R. Howe Jr.,Stephen R. Howe Jr.,FALSE,,Carnegie Hall,Board
+456,2013,Trustee,Frederick J. Iseman,Frederick J. Iseman,FALSE,,Carnegie Hall,Board
+457,2013,Trustee,Klaus Jacobs,Klaus Jacobs,FALSE,,Carnegie Hall,Board
+458,2013,Trustee,Robert W. Jones,Robert W. Jones,FALSE,,Carnegie Hall,Board
+459,2013,Trustee,Gilbert Kaplan,Gilbert Kaplan,FALSE,,Carnegie Hall,Board
+460,2013,Trustee,Mark E. Kingdon,Mark E. Kingdon,FALSE,,Carnegie Hall,Board
+461,2013,Trustee,Suzie Kovner,Suzie Kovner,FALSE,,Carnegie Hall,Board
+462,2013,Trustee,Robert K. Kraft,Robert K. Kraft,FALSE,,Carnegie Hall,Board
+463,2013,Trustee,Sallie L. Krawcheck,Sallie L. Krawcheck,FALSE,,Carnegie Hall,Board
+464,2013,Trustee,Lang Lang,Lang Lang,FALSE,,Carnegie Hall,Board
+465,2014,Trustee,Isabel Leonard,Isabel Leonard,FALSE,,Carnegie Hall,Board
+466,2013,Trustee,Robert I. Lipp,Robert I. Lipp,FALSE,,Carnegie Hall,Board
+467,2013,Trustee,Terry J. Lundgren,Terry J. Lundgren,FALSE,,Carnegie Hall,Board
+468,2013,Trustee,Yo-Yo Ma,Yo-Yo Ma,FALSE,,Carnegie Hall,Board
+469,2013,Trustee,Thomas G. Maheras,Thomas G. Maheras,FALSE,,Carnegie Hall,Board
+470,2013,Trustee,Peter W. May,Peter W. May,FALSE,,Carnegie Hall,Board
+471,2013,Trustee,Audra McDonald,Audra McDonald,FALSE,,Carnegie Hall,Board
+472,2013,Trustee,Harold McGraw III,Harold McGraw III,FALSE,,Carnegie Hall,Board
+473,2013,Trustee,Lester S. Morse Jr.,Lester S. Morse Jr.,FALSE,,Carnegie Hall,Board
+474,2013,Trustee,Dennis M. Nally,Dennis M. Nally,FALSE,,Carnegie Hall,Board
+475,2013,Trustee,Joshua L. Nash,Joshua L. Nash,FALSE,,Carnegie Hall,Board
+476,2013,Trustee,Frank N. Newman,Frank N. Newman,FALSE,,Carnegie Hall,Board
+477,2013,Trustee,Jessye Norman,Jessye Norman,FALSE,,Carnegie Hall,Board
+478,2013,Trustee,William G. Parrett,William G. Parrett,FALSE,,Carnegie Hall,Board
+479,2013,Trustee,Laura H. Pomerantz,Laura H. Pomerantz,FALSE,,Carnegie Hall,Board
+480,2013,Trustee,Don M. Randel,Don M. Randel,FALSE,,Carnegie Hall,Board
+481,2013,Trustee,Oscar de la Renta,Oscar de la Renta,FALSE,,Carnegie Hall,Board
+482,2013,Trustee,Burton P. Resnick,Burton P. Resnick,FALSE,,Carnegie Hall,Board
+483,2013,Trustee,Judith Rodin,Judith Rodin,FALSE,,Carnegie Hall,Board
+484,2013,Trustee,William D. Rondina,William D. Rondina,FALSE,,Carnegie Hall,Board
+485,2013,Trustee,Susan W. Rose,Susan W. Rose,FALSE,,Carnegie Hall,Board
+486,2013,Trustee,Charles M. Rosenthal,Charles M. Rosenthal,FALSE,,Carnegie Hall,Board
+487,2013,Trustee,Sana H. Sabbagh,Sana H. Sabbagh,FALSE,,Carnegie Hall,Board
+488,2013,Trustee,Suki Sandler,Suki Sandler,FALSE,,Carnegie Hall,Board
+489,2013,Trustee,Mrs. Julio Mario Santo Domingo,Mrs. Julio Mario Santo Domingo,FALSE,,Carnegie Hall,Board
+490,2013,Trustee,Dr. Thomas P. Sculco,Dr. Thomas P. Sculco,FALSE,,Carnegie Hall,Board
+491,2013,Trustee,Henry T. Segerstrom,Henry T. Segerstrom,FALSE,,Carnegie Hall,Board
+492,2013,Trustee,Stanley S. Shuman,Stanley S. Shuman,FALSE,,Carnegie Hall,Board
+493,2013,Trustee,David M. Siegel ,David M. Siegel,FALSE,,Carnegie Hall,Board
+494,2013,Trustee,Sir Howard Stringer,Sir Howard Stringer,FALSE,,Carnegie Hall,Board
+495,2013,Trustee,Kurt G. Strovink,Kurt G. Strovink,FALSE,,Carnegie Hall,Board
+496,2013,Trustee,S. Donald Sussman,S. Donald Sussman,FALSE,,Carnegie Hall,Board
+497,2013,Trustee,James Taylor,James Taylor,FALSE,,Carnegie Hall,Board
+498,2013,Trustee,Linda J. Wachner,Linda J. Wachner,FALSE,,Carnegie Hall,Board
+499,2013,Trustee,Judy Francis Zankel,Judy Francis Zankel,FALSE,,Carnegie Hall,Board
+500,2013,Trustee,John W. Zick,John W. Zick,FALSE,,Carnegie Hall,Board
+501,2013,Trustee,Ann Ziff,Ann Ziff,FALSE,,Carnegie Hall,Board
+502,2013,Honorary trustee,Ralph M. Baruch,Ralph M. Baruch,FALSE,,Carnegie Hall,Board
+503,2013,Honorary trustee,Pierre Boulez,Pierre Boulez,FALSE,,Carnegie Hall,Board
+504,2013,Honorary trustee,Roberta Peters,Roberta Peters,FALSE,,Carnegie Hall,Board
+505,2013,Honorary trustee,Felix G. Rohatyn,Felix G. Rohatyn,FALSE,,Carnegie Hall,Board
+506,2013,Honorary trustee,George T. Wein,George T. Wein,FALSE,,Carnegie Hall,Board
