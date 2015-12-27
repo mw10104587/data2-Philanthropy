@@ -38,4 +38,4 @@ We extracted donor names and amounts from their annual report, by using an onlin
 
 <h3>Some Results</h3>
 
-![Percentage of Board Member's donation](https://github.com/mw10104587/data2-Philanthropy/tree/master/story-use%20data/images/bar-chart.jpg "Each bar represents the percentage of an institution's total donation income that was provided by other institution's board members.")
+![Percentage of Board Member's donation](story-use%20data/images/bar-chart.jpg "Each bar represents the percentage of an institution's total donation income that was provided by other institution's board members.")
