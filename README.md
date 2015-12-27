@@ -45,3 +45,21 @@ We extracted donor names and amounts from their annual report, by using an onlin
 ![Donors connections](story-use%20data/images/graph-1.png "")
 
 *Each cluster represents an institution. The inner group of circles at the center of each institution represents the institution's board members. Blue arrows represent donations. The outer circles of each cluster represent the institution's most powerful donors. The red arrows call attention to donors who appear in multiple clusters--donors who donate to multiple institutions. This network shows how big each institution's donor network is and which institution's share similar donor bases*
+
+
+
+<h3>Code</h3>
+
+
+
+<h5>Python/Parse pdf to csv</h5>
+[link](https://github.com/mw10104587/data2-Philanthropy/blob/master/Python/ParsePDF2CSV.py)
+
+<p> We extract donors data with pdf table, and download excel from the website. Some times when the names of donors are long, like: Jackie Harris Hochberg and Robert J Hochberg, it often turns into two row.
+
+|Donors|
+|---|
+|Jackie Harris Hochberg|
+|and Robert J Hochberg|
+
+<h5>
