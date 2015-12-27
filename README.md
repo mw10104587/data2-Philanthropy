@@ -7,16 +7,16 @@ We collected the data from the following 20 Institutions, said to be the richest
 
 - Carnegie Hall 
 - Lincoln Center
-- Met
-- Met Opera
-- MoMA
-- Philharmonic
-- Amnh
-- Art and Design
+- The Metropolitan Museum of Arts
+- The Metropolitan Opera
+- Museum of Modern Art
+- New York Philharmonic
+- American Museum of Natural History
+- Museum of Arts and Design
 - Brooklyn Public Library
-- Frick
+- Frick Collection
 - New York Public Library 
-- 911 memorial
+- 9/11 memorial
 - Cooper Hewitt/Smithsonian
 - New York Transit Museum 
 - The Morgan Library and Museum
@@ -41,7 +41,7 @@ We extracted donor names and amounts from their annual report, by using an onlin
 
 ![Percentage of Board Member's donation](story-use%20data/images/bar-chart.jpg "Each bar represents the percentage of an institution's total donation income that was provided by other institution's board members.")
 
-*Each bar represents the percentage of an institution's total donation income that was provided by other institution's board members.*
+*Each bar represents the percentage of an institution's total donation income that was provided by other institution's board members. Lincoln Center benefited most from cross-giving.*
 
 
 ![Donors connections](story-use%20data/images/graph-1.png "")
