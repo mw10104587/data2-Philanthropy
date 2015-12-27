@@ -48,19 +48,17 @@ We extracted donor names and amounts from their annual report, by using an onlin
 
 
 
-<h3>Code</h3>
+###Code
 
-
-
-<h5>Python/Parse pdf to csv</h5>
+#####Python/Parse pdf to csv
 [link](https://github.com/mw10104587/data2-Philanthropy/blob/master/Python/ParsePDF2CSV.py)
 
 <p> We extract donors data with pdf table, and download excel from the website. Some times when the names of donors are long, like: Jackie Harris Hochberg and Robert J Hochberg, it often turns into two row.
 
-|Donors|
-|---|
+|Donors                |
+|----------------------|
 |Jackie Harris Hochberg|
-|and Robert J Hochberg|
+|and Robert J Hochberg |
 
 
 We manually move cut the second half of the data back to the first row, for all of these long donor names, and use this ParsePDF2CSV.py file to make it a csv file, adding year, institution and fund type into the data, trying reduce manual effort for journalists.
@@ -72,7 +70,8 @@ We manually move cut the second half of the data back to the first row, for all 
 |2013|Bloomberg Philanthropies|"$15,000,000"|    |9/11 Memorial|
 |2013|JPMorgan Chase Co       |"$15,000,000"|    |9/11 Memorial|
 
-Usage: python ParsePDF2CSV.py "<CSV FILE> <par|stack|stack-with-fundtype> <Year> <Institution> (fund type)"
+
+<pre lang="text"><code>python ParsePDF2CSV.py file.csv stackType Year Institution [Fund Type]</code></pre>
 
 This is a command line tool that tackles with three kind of format.
 
