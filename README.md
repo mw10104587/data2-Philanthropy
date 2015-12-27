@@ -38,13 +38,20 @@ We extracted donor names and amounts from their annual report, by using an onlin
 
 <h3>Some Results</h3>
 
+
 ![Percentage of Board Member's donation](story-use%20data/images/bar-chart.jpg "Each bar represents the percentage of an institution's total donation income that was provided by other institution's board members.")
 
 *Each bar represents the percentage of an institution's total donation income that was provided by other institution's board members.*
 
+
 ![Donors connections](story-use%20data/images/graph-1.png "")
 
 *Each cluster represents an institution. The inner group of circles at the center of each institution represents the institution's board members. Blue arrows represent donations. The outer circles of each cluster represent the institution's most powerful donors. The red arrows call attention to donors who appear in multiple clusters--donors who donate to multiple institutions. This network shows how big each institution's donor network is and which institution's share similar donor bases*
+
+
+![Cross Giving Chart](story-use%20data/images/graph-3.png "")
+
+*Institutions are along the circumference according to the percentage of board members who donated to them. Colored chords connecting two institutions represent reciprocal relationships (the institutions have donated to each other through their board members). Gray chords connecting two institutions represent non-reciprocal relationships (one institution gave to the other, but the other did not give back). Lincoln Center, 9/11 Memorial and Mets are the largest player in the backscratching game*
 
 
 
