@@ -54,6 +54,11 @@ We extracted donor names and amounts from their annual report, by using an onlin
 *Institutions are along the circumference according to the percentage of board members who donated to them. Colored chords connecting two institutions represent reciprocal relationships (the institutions have donated to each other through their board members). Gray chords connecting two institutions represent non-reciprocal relationships (one institution gave to the other, but the other did not give back). Lincoln Center, 9/11 Memorial and Mets are the largest player in the backscratching game*
 
 
+![Institution Board Member Donation](story-use%20data/images/graph-2.png "")
+
+*Each large orange circle represents an institution. The smaller circles clustered around it are that institution's board members. The blue arrows represent donations that board members made to institutions other than the one to which they belong. These donations are made in the board member's name. The green arrows represent donations from an organization, foundation, company or other group affiliated with a board member made to an institution to which the board member does not belong."
+*
+
 
 ###Code
 
