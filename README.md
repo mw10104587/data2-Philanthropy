@@ -72,5 +72,13 @@ We manually move cut the second half of the data back to the first row, for all 
 |2013|Bloomberg Philanthropies|"$15,000,000"|    |9/11 Memorial|
 |2013|JPMorgan Chase Co       |"$15,000,000"|    |9/11 Memorial|
 
+Usage: python ParsePDF2CSV.py "<CSV FILE> <par|stack|stack-with-fundtype> <Year> <Institution> (fund type)"
+
+
+This is a command line tool that tackles with three kind of format.
+1. par: the amount donation of each donor is listed parrallel to the donors name
+2. stack: the amount of donation of each donors is stacked on the same column
+3. stack-with-fundtype: the amount of donation is stacked with donors, and the fund type is parrallel to donors list.
+
 
 <h5>
