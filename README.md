@@ -62,4 +62,15 @@ We extracted donor names and amounts from their annual report, by using an onlin
 |Jackie Harris Hochberg|
 |and Robert J Hochberg|
 
+
+We manually move cut the second half of the data back to the first row, for all of these long donor names, and use this ParsePDF2CSV.py file to make it a csv file, adding year, institution and fund type into the data, trying reduce manual effort for journalists.
+
+|Year|Donor|Amount|Type|Institution|
+|---:|---:|---:|---:|
+|2013|The Starr Foundation|"$25,000,000"||9/11 Memorial|
+|2013|Bank of America|"$20,000,000"||9/11 Memorial|
+|2013|Bloomberg Philanthropies|"$15,000,000"||9/11 Memorial|
+|2013|JPMorgan Chase Co|"$15,000,000"||9/11 Memorial|
+
+
 <h5>
