@@ -26,7 +26,7 @@ We collected the data from the following 20 Institutions, said to be the richest
 - WNYC 
 - Brooklyn Academy of Music
 
-We extracted donor names and amounts from their annual report, by using an online service "pdftable", and turned them into a 42,955 rows csv file.
+We extracted donor names and amounts from their annual report, by using an online service [pdftable](https://pdftables.com/), and turned them into a 42,955 rows csv file.
 
 
 <h3>Tools</h3>
@@ -87,4 +87,9 @@ This is a command line tool that tackles with three kind of format.
 3. stack-with-fundtype: the amount of donation is stacked with donors, and the fund type is parrallel to donors list.
 
 
-<h5>
+### Future Plan
+
+1. Currently there are a lot of donors who donate together, like **Jackie Harris Hochberg and Robert J Hochberg**, but we still take them as one person. We plan to parse them and split them into different rows in the future.
+2. Currently there are similar names for companies and people, we plan to implement Fuzzy String matching.
+3. Visualize data into web portable format. (Now on Gephi)
+
