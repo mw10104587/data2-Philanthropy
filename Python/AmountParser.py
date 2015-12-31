@@ -7,18 +7,14 @@ def getUpperandLowerBoundAmount(amountStr):
 
 	amountStr = amountStr.lower()
 
+	# if the amount is unknown, than we return zero for both upper bound and lower bound.
 	if amountStr == "unknown":
 		return (0,0)
 
-	# if Strings starting then we found something weird, we have to remove it. 
+	# check different format of amount. 
 	if not re.search('^[^0-9$,]+', amountStr) is None:
-		
-		print "in this funny place"
-		print amountStr
 		amountStr = amountStr[amountStr.find("$"):]
-		print "......."
-		print amountStr
-
+		
 	if amountStr.find("and above") != -1:
 		amountStr = amountStr.replace("and above", "")
 		amountStr = amountStr.strip()
@@ -56,8 +52,7 @@ def getUpperandLowerBoundAmount(amountStr):
 	else:
 
 		print "= = ??????"
-		print amountStr
-		print "= = ??????"
+		print "Shouldn't be in here"
 		sys.exit()
 
 

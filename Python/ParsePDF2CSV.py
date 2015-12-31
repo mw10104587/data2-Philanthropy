@@ -4,11 +4,10 @@ import sys
 import re
 
 
-
 def refineDonorNamesForCooper(donor):
 	donor = re.sub('[^a-z0-9A-Z\s_]', "", donor)
 	return donor
-# 
+
 def refineAmountCellFor911(text):
 	text = text.replace("level", "")
 	text = text.replace(" LEVEL", "")
@@ -28,7 +27,6 @@ def refineAmountCellFor911(text):
 
 	return text
 
-
 def refineAmountCellForCooper(text):
 	text = text.replace("¡V", "-")
 	text = re.sub("[^a-z0-9A-Z-$,\s]", "-", text)
@@ -36,17 +34,12 @@ def refineAmountCellForCooper(text):
 
 	return text
 
-
 def refineAmountCellForNYPL(text):
 	text = text.replace("Donors of ", "")
 	text = re.sub("[()]", "", text)
 	text = text.replace(" to ", "-")
 
 	return text.rstrip()
-
-
-# def refineAmountCellForNYTransit(text):
-	# text = 
 
 
 if __name__ == '__main__':
@@ -83,10 +76,8 @@ if __name__ == '__main__':
 					else:
 						donorOrAmount = ""
 
+				# update the current amount value, because it means the following rows are all the same amount.
 				if thisRowIsAmount:
-					# update the current amount value
-					# currentAmount = refineAmountCellForCooper(donorOrAmount)	
-
 					currentAmount = donorOrAmount
 					thisRowIsAmount = False
 					continue
@@ -96,16 +87,15 @@ if __name__ == '__main__':
 					thisRowIsAmount = True
 					continue
 
-				# if it comes here, it means it's just a name.
+				# if it comes here, it means it's just a name(a donation)
 				print donorOrAmount + currentAmount
 
 				# special case that we need to process for the Cooper data
 				donorOrAmount = refineDonorNamesForCooper(donorOrAmount)
 
+				# make a list data for a donation
 				thisDonorValueList = [year, donorOrAmount, currentAmount, donationType, institution]
 				outputList.append(dict(zip(fieldNames, thisDonorValueList)))
-
-			# print json.dumps(outputList, indent=4)
 
 			with open(csvFile.replace(".csv", "-parsed.csv"), "w") as outFile:
 				writer = csv.DictWriter(outFile, fieldnames = fieldNames)
@@ -114,7 +104,15 @@ if __name__ == '__main__':
 					writer.writerow(donor)
 
 	elif sys.argv[2] == "par":
-		# if par|stack == par
+		# par is abreviation of parallel, and the format will look like
+		# | $1,000,000|  Chi-An Wang |
+		# |           |   Qi-An Wang |
+		# |           |   Miles Wang |
+		# |			  |   			 |
+		# |   $500,000|  Chi-An Wang |
+		# |           |   Qi-An Wang |
+		# |           |   Miles Wang |
+		# |			  |   			 |
 
 		csvFile = sys.argv[1]
 		year = sys.argv[3]
@@ -127,7 +125,6 @@ if __name__ == '__main__':
 		# list to output into the final csv
 		outputList = []
 		fieldNames = ["Year", "Donor", "Amount", "Type", "Institution"]
-
 		currentAmount = ""
 
 		with open(csvFile, "rU") as inFile:
@@ -140,18 +137,13 @@ if __name__ == '__main__':
 
 				if not donorOrAmount[0] == "":
 					# update the current amount value
-					# currentAmount = refineAmountCellForCooper(donorOrAmount)
 					currentAmount = refineAmountCellForNYPL(donorOrAmount[0])
 
 				# special case that we need to process for the Cooper data
 				# donorOrAmount = refineDonorNamesForCooper(donorOrAmount)
 				donorName = donorOrAmount[1]
-				print donorName + "-> " + currentAmount
-
 				thisDonorValueList = [year, donorName, currentAmount, donationType, institution]
 				outputList.append(dict(zip(fieldNames, thisDonorValueList)))
-
-			# print json.dumps(outputList, indent=4)
 
 			with open(csvFile.replace(".csv", "-parsed.csv"), "w") as outFile:
 				writer = csv.DictWriter(outFile, fieldnames = fieldNames)
@@ -160,10 +152,20 @@ if __name__ == '__main__':
 					writer.writerow(donor)
 
 	else:
-		# sys.args[2] == "stack-with-fundtype"
+
+		# stack with fund type
+		# | $1,000,000 |  Annuak Donation|
+		# | Chi-An Wang|                 |
+		# |  Qi-An Wang|                 |
+		# |  Miles Wang|                 |
+		# |            |                 |
+		# |   $500,000 | Corporation Fund|
+		# | Chi-An Wang|                 |
+		# |  Qi-An Wang|                 |
+		# |  Miles Wang|                 |
+		# |            |                 |
 
 		csvFile = sys.argv[1]
-
 		year = sys.argv[3]
 		institution = sys.argv[4]
 
@@ -179,13 +181,6 @@ if __name__ == '__main__':
 			donorsOrAmounts = csv.reader(inFile)
 			for donorOrAmount in donorsOrAmounts:
 
-				# if not isinstance(donorOrAmount, basestring):
-				# 	if len(donorOrAmount) > 0:
-				# 		donorOrAmount = donorOrAmount[0]
-				# 	else:
-				# 		donorOrAmount = ""
-
-
 				if thisRowIsAmount:
 					# update the current amount value
 					# currentAmount = refineAmountCellForCooper(donorOrAmount)
@@ -199,16 +194,8 @@ if __name__ == '__main__':
 					thisRowIsAmount = True
 					continue
 
-				# if it comes here, it means it's just a name.
-				print donorOrAmount[0] + "---" + currentAmount
-
-				# special case that we need to process for the Cooper data
-				# donorOrAmount[0] = donorOrAmount[0]
-
 				thisDonorValueList = [year, donorOrAmount[0], currentAmount, currentFundType, institution]
 				outputList.append(dict(zip(fieldNames, thisDonorValueList)))
-
-			# print json.dumps(outputList, indent=4)
 
 			with open(csvFile.replace(".csv", "-parsed.csv"), "w") as outFile:
 				writer = csv.DictWriter(outFile, fieldnames = fieldNames)

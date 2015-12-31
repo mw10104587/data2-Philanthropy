@@ -67,7 +67,7 @@ We extracted donor names and amounts from their annual report, by using an onlin
 
 <pre lang="text"><code>python ParsePDF2CSV.py file.csv stackType Year Institution [Fund Type]</code></pre>
 
-<p> We extract donors data with pdf table, and download excel from the website. Some times when the names of donors are long, like: Jackie Harris Hochberg and Robert J Hochberg, it often turns into two row.
+<p> We extract donors data with pdf table, and download excel from the website. Some times when the names of donors are long, like: Jackie Harris Hochberg and Robert J Hochberg, it often turns into two row. </p>
 
 |Donors                |
 |----------------------|
@@ -92,9 +92,33 @@ This is a command line tool that tackles with three kind of format.
 3. stack-with-fundtype: the amount of donation is stacked with donors, and the fund type is parrallel to donors list.
 
 
+#####Python/Amount Parser
+[File](https://github.com/mw10104587/data2-Philanthropy/blob/master/Python/AmountParser.py)
+
+<p> Different institutions have different way of showing the amount of donation in their annual reports. We parse different format of donation amount into an upper bound and a lower bound (some of them are ranges). We also classify them into 5 classes according to their amoun of donation to simplify our visualization. </p>
+
+|Class |Amount      |
+|-----:|-----------:|
+|1     |  1,000,000+|
+|2     |   750,000 +|
+|3     |   500,000 +| 
+|4     |   250,000 +|
+|5     |   249,999 -|
+
+
+#####Python/ Generate Node Graph Data
+[File](https://github.com/mw10104587/data2-Philanthropy/blob/master/Python/GenerateNodeGraphData.py)
+
+<pre lang="text"><code>python GenerateNodeGraphData.py donors-list.csv boards.csv smallest_donation_class></code></pre>
+
+<p> This file takes the a donor list of 20 institutions and a list of all board members, and outputs two file for plotting a node graph, one node.csv and a edge.csv. The class for amount of donations to be taken into consideration should also be specified in the command. The classes are mentioned in the last paragraph.
+</p>
+
+
 ### Future Plan
 
 1. Currently there are a lot of donors who donate together, like **Jackie Harris Hochberg and Robert J Hochberg**, but we still take them as one person. We plan to parse them and split them into different rows in the future.
 2. Currently there are similar names for companies and people, we plan to implement Fuzzy String matching.
 3. Visualize data into web portable format. (Now on Gephi)
+4. We plan to interview members of several boards, and philanthropy experts to understand more insight about this phenomenon.
 
