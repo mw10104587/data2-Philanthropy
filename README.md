@@ -2,7 +2,7 @@
 
 This is a project about 20 Cultural Institutions' philanthropy data in New York City. We tried to find out the cross giving, which a board member of museum A donates to museum B, and the board member of museum B donates back. The project is initiated in the class of Mark Hansen's data II in Columbia University. 
 
-[Download Full Story Here](story-use%20data/Philanthropy_Final_Project.docx)
+[Download Full Story Here](story-use%20data/Philanthropy_Final_Project.docx?raw=true)
 
 <h3>Data</h3>
 We collected the data from the following 20 Institutions, said to be the richest institutions based on ranking by Crain’s New York.
