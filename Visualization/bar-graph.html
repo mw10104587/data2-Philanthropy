@@ -1,0 +1,147 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- <meta char="UTF-8"> -->
+		<style type="text/css">
+			body,html{
+				margin:0;
+				padding:0;
+			}
+			#svg{
+				width:900px;
+				height:250px;
+				margin:30px 0 0 30px;
+			}
+			rect{
+				fill:none;
+				stroke:#000;
+			}
+			path{
+				fill:none;
+				stroke:#000;
+				stroke-width:0.3;
+			}
+
+			#bar-svg{
+				margin: auto;
+				display: table;
+				margin-top: 50px;
+			}
+
+			.tip-wrap{
+				background-color: rgba(0,0,0, 0.6);
+				padding: 10px 15px 10px 15px;
+
+				color: white;
+			}
+
+			.axis text {
+			  font: 10px sans-serif;
+			}
+
+			.axis path,
+			.axis line {
+			  fill: none;
+			  stroke: #000;
+			  shape-rendering: crispEdges;
+			}
+
+		</style>
+		<script src="js/d3.js"></script>
+		<script src="js/d3.sketchy.js"></script>
+		<script type="text/javascript" src="js/d3-tip.js"></script>
+	</head>
+	<body>
+		<div id="bar-svg">
+			<svg id="svg" width="730" height="290"></svg>
+		</div>
+		<script type="text/javascript">
+
+			d3.csv("data/donation-sum.csv", function(data){
+
+				var y = d3.scale.linear().domain([0, 40]).range([200, 0]);
+				var x = d3.scale.ordinal().rangeRoundBands([0, 900], 0.2).domain( data.map(function(d){return d.Institution;}) );
+
+				var yAxis = d3.svg.axis().scale(y).orient("left");
+
+				var svg = d3.select("#svg").append("g")
+					.attr("id", "bars-g")
+					.attr("transform", function(d){
+						return "translate(" + 30 + ",10)";
+					});
+
+				d3.select("svg").append("g")
+					.attr("class", "y axis")
+					.attr("transform", "translate(30,10)")
+					.call(yAxis);
+
+				var institutions = svg.selectAll(".institution")
+						.data(data).enter()
+					  .append("g")
+					  	.attr("class", "institution");
+
+				var institutionTip = d3.tip().attr("class", "institution-tip").html(function(d){
+					return '<div class="tip-wrap">\
+								<div class="intitution-name">Institution Name:<br>' + d["Institution"] + '</div>\
+								<div class="crossgiving-percentage"> Percentage of cross-giving:<br>' + parseInt( parseFloat(d["Percentage"].trim() ) * 100) + '%</div>\
+							</div>';
+				});
+
+				svg.call(institutionTip);
+
+				institutions.append("rect")
+					.attr("width", x.rangeBand() )
+					.attr("height", function(d){
+						return 200 - y( parseFloat(d["Percentage"].trim()) * 100 );
+					})
+					.style("fill", "rgb(46,132,133)")
+					.style("stroke-width", 1)
+					.on("mouseover", function(d){
+						d3.select(this)
+							.style("stroke-width", 3)
+							.style("stroke", "rgb(102,22,18)");
+
+						institutionTip.show(d);
+
+						console.log( d3.select(this).node().parentNode );
+						d3.select( d3.select(this).node().parentNode ).select("text")
+							.style("stroke", "rgb(102,22,18)").style("stroke-width", 1)
+							.style("fill", "black");
+
+					})
+					.on("mouseout", function(d){
+						d3.select(this)
+							.style("stroke-width", 1)
+							.style("stroke", "#333");
+
+						institutionTip.hide(d);
+
+						d3.select( d3.select(this).node().parentNode ).select("text")
+							.style("stroke", "black").style("stroke-width", 0)
+							.style("fill", "black");
+
+					});
+
+				institutions.append("text")
+					.text(function(d){
+						return d["Intitution_abrev"];
+					})
+					.attr("x", function(d){
+						return x.rangeBand()/2;
+					})
+					.attr("y", function(d){
+						return 200 - y( parseFloat(d["Percentage"].trim()) * 100 ) + 20 + ( (parseInt(d.rank) + 1)%2) * 15;
+					})
+					.style("font-size", 9)
+					.style("text-anchor", "middle");
+
+				institutions.attr("transform", function(d){
+						return "translate(" + x( d.Institution ) + "," + y( parseFloat(d["Percentage"].trim()) * 100 ) + ")";
+					});
+			
+			});
+
+			
+		</script>
+	</body>
+</html>
