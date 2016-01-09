@@ -1,0 +1,137 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- <meta char="UTF-8"> -->
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="js/d3.js"></script>
+		<script src="js/d3.sketchy.js"></script>
+		<script type="text/javascript" src="js/d3-tip.js"></script>
+		<script type="text/javascript" src="js/queue.v1.min.js"></script>
+
+	</head>
+	<body>
+		<div class='container'>
+
+			<h1>Philanthropic Backscratching: the board members of New York City’s top cultural institutions love Lincoln Center</h1>
+			<div id="by-line">By Chi-An Wang, James Farrell, Katerina Iliakopoulou, Sirui Shao</div>
+
+			<div>
+				<p>
+					New York City’s cultural world may seem vast, but the thousands of board members that run Manhattan’s cultural institutions are more interconnected than they appear—and they all love Lincoln Center.
+				</p>
+			</div>
+			<div>
+				<p>
+					In an analysis of 20 of the richest 100 cultural institutions, as ranked by Crain’s New York, and over 1300 board members, we found 1269 instances of board member cross-giving—moments where a board member in one institution gave a donation to a different institution—between 2012 and 2014. Of all the board members who gave to other institutions during this time, 45.1 percent donated to Lincoln Center. The 9/11 Memorial saw the second highest amount of external board member support with 23.4 percent.
+				</p>
+			</div>
+
+			<div>
+				<p>
+					These moments of inter-institutional interaction provide a glimpse into the behind-the-scenes politics of New York City philanthropy. They hint at the possibility of a network of reciprocity, where board members of different institutions donate to each other’s institutions to satisfy funding quotas and deadlines. These instances of reciprocal cross-giving hint at a system of agreements: philanthropic backscratching—board members making promises that say, “if you scratch my back, I’ll scratch yours.” And institutions like Lincoln Center benefit the most.
+				</p>
+			</div>
+
+			<div>
+				<p>
+					In analyzing the donor lists from 2012-2014 for the 20 institutions, we found that board members from other institutions accounted for approximately 38 percent of all of Lincoln Center’s donor-driven funding—a greater percentage than any other institution. The New York Philharmonic had the second highest percentage, with 25 percent, and the 9/11 Memorial was just behind it with 24 percent.
+				</p>
+			</div>
+
+			<div class="center chart-title">
+				<h3>Percentage of Cross Giving of the 20 Institutions</h3>
+			</div>
+			<div id="bar-svg">
+				<svg id="svg" width="730" height="290"></svg>
+			</div>
+
+			<div class="caption">
+				Each bar represents the percentage of an institution's total donation income that was provided by other institution's board members.
+			</div>
+
+
+			<div>
+				<p>
+					Other institutions did not rely on external board member funding to the same extent. The less affluent cultural center, 92 Street Y saw significantly less donations from outside board members. External board member support accounted for just over 1 percent of its overall donor income. (For comparison, Lincoln Center was ranked 7th on Crain’s list. 92 Street Y was ranked 12th).
+
+				</p>
+			</div>
+
+
+
+			<div class="center chart-title">
+				<h3>Donors giving to multiple institutions</h3>
+			</div>
+			<div class="graph-img-wrap">
+				<img src="img/graph-2.png">
+			</div>
+			<div class="caption">
+				Each cluster represents an institution. The inner group of circles at the center of each institution represents the institution's board members. Blue arrows represent donations. The outer circles of each cluster represent the institution's most powerful donors. The red arrows call attention to donors who appear in multiple clusters--donors who donate to multiple institutions. This network shows how big each institution's donor network is and which institution's share similar donor bases.
+			</div>
+
+			<div>
+				<p>
+					Institutions that receive donations from their peers also frequently donate back to their peers’ institutions, creating reciprocal relationships that could indicate instances of “philanthropic backscratching.” Lincoln Center has reciprocal relationships with seven different cultural institutions: The 9/11 Memorial, The Metropolitan Museum of Art, The Metropolitan Opera House, Carnegie Hall, WNET/Channel Thirteen, the American Museum of Natural History and New York Public Library. Other institutions, like the Metropolitan Museum of Art, also had a number of reciprocal connections. (The Met Museum had 8, the most of any other institution). 
+				</p>
+			</div>
+
+			<div>
+				<p>
+					But there is a notable difference between Lincoln Center and the other cultural institutions involved in this analysis. In all of its reciprocal relationships, Lincoln Center receives more donations than it gives. For instance, of all the board members donating to different institutions, 11.8 percent were board members for the 9/11 Memorial who donated to Lincoln Center. Lincoln Center board members who donated to the 9/11 Memorial accounted for only 3.8 percent. In all of its reciprocal relationships, Lincoln Center accumulated more donors than it produced.
+				</p>
+			</div>
+
+
+			<div class="center chart-title">
+				<h3>Percentage of Cross Giving of the 20 Institutions</h3>
+			</div>
+			<div id="chord-svg-wrap">
+				<svg id="chord-svg"></svg>
+			</div>
+
+			<div class="caption">
+				Institutions are along the circumference according to the percentage of board members who donated to them. Colored chords connecting two institutions represent reciprocal relationships (the institutions have donated to each other through their board members). Gray chords connecting two institutions represent non-reciprocal relationships (one institution gave to the other, but the other did not give back). Lincoln Center, 9/11 Memorial and Mets are the largest player in the backscratching game.
+			</div>
+
+			<div>
+				<p>
+					Reciprocal relationships could reveal some of the politics that govern philanthropy among New York cultural institutions. It could highlight potential behind-the-scenes collaborations between institutions. It wouldn’t be irregular for Lincoln Center to cooperate with other institutions. A recent initiative called Lincoln Center Global displays the institution’s willingness to do so. In this year’s annual report, Lincoln Center Global is described as a “cultural and educational consulting practice” that draws on “government, corporate, educational, and institutional leaders and philanthropists worldwide in planning, building, and operating vibrant arts facilities, programs, and cultural districts.”
+				</p>
+			</div>
+
+			<div>
+				<p>
+					But finding true connections between board members and institutions is complicated. Many board members are corporate directors or CEOs, or work for charitable organizations. When one of these organizations donates to a cultural institution, it can be difficult to tell how much influence the specific board member had in that decision.
+				</p>
+			</div>
+
+			<div>
+				<p>
+					In our analysis, we researched over 500 board members and compiled their affiliations—companies, foundations and other associated organizations. We mapped out the reciprocal relationships across institutions and labeled relationships created by direct donations (where board members individually donated to an institution in his or her own name) and affiliations (where an organization affiliated with a board member donated to an institution).
+				</p>
+			</div>
+
+
+			<div class="center chart-title">
+				<h3>Donations from boardmembers and their affiliations</h3>
+			</div>
+			<div class="graph-img-wrap">
+				<img src="img/graph-3.png">
+			</div>
+
+			<div class="caption">
+				Each large orange circle represents an institution. The smaller circles clustered around it are that institution's board members. The blue arrows represent donations that board members made to institutions other than the one to which they belong. These donations are made in the board member's name. The green arrows represent donations from an organization, foundation, company or other group affiliated with a board member made to an institution to which the board member does not belong.
+			</div>
+
+
+			<div>
+				<p>
+					Institutions whose board members didn’t donate to other institutions didn’t receive donations from other board members. (The Brooklyn Academy of music, for instance, had no reciprocal relationships at all). We can’t see the hypothetical promises made between the elite at cocktail parties. But Lincoln Center’s case makes a clear statement: when it comes to the attention of your peers, you need to give some to get some.
+				</p>
+			</div>
+
+
+		</div>	
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>

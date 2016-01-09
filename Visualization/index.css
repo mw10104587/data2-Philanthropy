@@ -1,0 +1,117 @@
+/* Global CSS */
+
+body,html{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	margin-bottom: 3px;
+}
+
+.container{
+	width: 930px;
+	margin: auto;
+
+	padding: 50px 0px 50px 0px;
+}
+
+div > p{
+	text-align: justify;
+	margin: 25px 0px 15px 0px;
+}
+
+div.center{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.chart-title{
+	margin-top: 40px;
+	/*font-size: 26px;*/
+}
+
+.caption{
+	font-size: 12px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+/* Bar Chart CSS */
+
+#svg{
+	width:900px;
+	height:250px;
+	margin:30px 0 0 0px;
+}
+rect{
+	fill:none;
+	stroke:#000;
+}
+
+path{
+	fill:none;
+	stroke:#000;
+	stroke-width:0.3;
+}
+
+#bar-svg{
+	margin: auto;
+	display: table;
+	margin-top: 5px;
+}
+
+.tip-wrap{
+	background-color: rgba(0,0,0, 0.6);
+	padding: 10px 15px 10px 15px;
+
+	color: white;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.graph-img-wrap{
+	width: 100%;
+}
+
+.graph-img-wrap > img{
+	width: 100%;
+}
+
+/* Circle Diagram */
+
+@import url(http://bost.ocks.org/mike/style.css?aea6f0a);
+
+#circle circle {
+  fill: none;
+  pointer-events: all;
+}
+
+.group path {
+  fill-opacity: .5;
+}
+
+path.chord {
+  stroke: #000;
+  stroke-width: .25px;
+}
+
+#circle:hover path.fade {
+  display: none;
+}
+
+#chord-svg-wrap{
+	display: table;
+	margin: auto;
+}

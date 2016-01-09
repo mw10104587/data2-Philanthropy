@@ -52,6 +52,7 @@
 		<script type="text/javascript" src="js/d3-tip.js"></script>
 	</head>
 	<body>
+		<h3>Percentage of Cross Giving of the 20 Institutions</h3>
 		<div id="bar-svg">
 			<svg id="svg" width="730" height="290"></svg>
 		</div>
@@ -73,7 +74,13 @@
 				d3.select("svg").append("g")
 					.attr("class", "y axis")
 					.attr("transform", "translate(30,10)")
-					.call(yAxis);
+					.call(yAxis)
+					.append("text")
+				    // .attr("transform", "rotate(-90)")
+				    .attr("y", 220)
+				    .attr("dy", ".71em")
+				    .style("text-anchor", "end")
+				    .text("(%)");;
 
 				var institutions = svg.selectAll(".institution")
 						.data(data).enter()

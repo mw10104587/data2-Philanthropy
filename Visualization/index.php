@@ -1,1 +1,1 @@
-<?php include_once("graph-3.html"); ?>
+<?php include_once("index.html"); ?>
